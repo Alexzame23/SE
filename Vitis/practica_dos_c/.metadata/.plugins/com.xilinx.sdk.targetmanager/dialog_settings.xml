@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="practica_doc_system-bitFile" value="${project_loc:practica_doc}/_ide/bitstream/practica_dosc.bit"/>
+	<item key="practica_doc_system-bmmFile" value="${project_loc:practica_doc}/_ide/bitstream/practica_dosc.mmi"/>
+	<item key="practica_doc_system-target" value="Local"/>
+	<item key="practica_doc_system-device" value="Auto Detect"/>
+	<item key="practica_doc_system-partial_bit" value="false"/>
+	<item key="practica_doc_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="practica_doc_system"/>
+	<item key="practica_doc_system-microblaze_0-initElf" value="D:\SE\Vitis\practica_dos_c\practica_doc\Debug\practica_doc.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183AB3FB7A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183AB3FB7A-0362d093-0&quot;}}]}"/>
+</section>

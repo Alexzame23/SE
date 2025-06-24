@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="practicadoscotra_system-bitFile" value="${project_loc:practicadoscotra}/_ide/bitstream/practica2otramas.bit"/>
+	<item key="practicadoscotra_system-bmmFile" value="${project_loc:practicadoscotra}/_ide/bitstream/practica2otramas.mmi"/>
+	<item key="practicadoscotra_system-target" value="Local"/>
+	<item key="practicadoscotra_system-device" value="Auto Detect"/>
+	<item key="practicadoscotra_system-partial_bit" value="false"/>
+	<item key="practicadoscotra_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="practicadoscotra_system"/>
+	<item key="practicadoscotra_system-microblaze_0-initElf" value="D:\SE\Vitis\practicadoscc\practicadoscotra\Debug\practicadoscotra.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183AB3E94A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183AB3E94A-0362d093-0&quot;}}]}"/>
+</section>

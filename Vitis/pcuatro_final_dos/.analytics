@@ -1,0 +1,16 @@
+timestamp=[2024-12-11 17:04:18], mode=WORKBENCH_START, duration=0:00:08.218, duration_ms=8218, data={}
+timestamp=[2024-12-11 17:04:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.018, duration_ms=18, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-12-11 17:04:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.106, duration_ms=106, data={}
+timestamp=[2024-12-11 17:05:42], mode=APP_CREATION, duration=0:00:15.156, duration_ms=15156, data={name=pcuatro_dos, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=p4final2, application_type=application}
+timestamp=[2024-12-11 17:12:24], mode=PLATFORM_GENERATION, duration=0:00:11.153, duration_ms=11153, data={name=p4final2}
+timestamp=[2024-12-11 17:12:25], mode=BUILD, duration=0:00:00.537, duration_ms=537, data={name=pcuatro_dos, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:13:32], mode=BUILD, duration=0:00:01.331, duration_ms=1331, data={name=pcuatro_dos, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:13:33], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=pcuatro_dos_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:14:38], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=pcuatro_dos, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:14:39], mode=BUILD, duration=0:00:00.159, duration_ms=159, data={name=pcuatro_dos_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-17 20:32:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.121, duration_ms=121, data={}
+timestamp=[2024-12-17 20:32:02], mode=WORKBENCH_START, duration=0:00:11.120, duration_ms=11120, data={}
+timestamp=[2024-12-17 20:32:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.398, duration_ms=398, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,p4final2,pcuatro_dos,pcuatro_dos_system}
+timestamp=[2025-06-04 15:49:12], mode=WORKBENCH_START, duration=0:00:13.365, duration_ms=13365, data={}
+timestamp=[2025-06-04 15:49:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.521, duration_ms=521, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,p4final2,pcuatro_dos,pcuatro_dos_system}
+timestamp=[2025-06-04 15:49:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:07.194, duration_ms=7194, data={}

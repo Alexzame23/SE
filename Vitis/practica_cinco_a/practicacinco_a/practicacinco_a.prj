@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="practicacinco_a" location="C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cinco_a/practicacinco_a" platform="C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cinco_a/p5a2/export/p5a2/p5a2.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="practicacinco_a_system" sysConfig="p5a2" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="7fbe8a1213a54534c91fd1cab96223d2">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1745561638">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.27173791" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,25 @@
+17:37:50 **** Incremental Build of configuration Debug for project pcinco_aimage ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -IC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/sw/p5image/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+../src/testperiph.c: In function 'valorR':
+../src/testperiph.c:10:25: warning: implicit declaration of function 'XUartLite_RecvByte' [-Wimplicit-function-declaration]
+   10 |                 valor = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+      |                         ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: pcinco_aimage.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/sw/p5image/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pcinco_aimage.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pcinco_aimage.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pcinco_aimage.elf  |tee "pcinco_aimage.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6804	    268	   3112	  10184	   27c8	pcinco_aimage.elf
+'Finished building: pcinco_aimage.elf.size'
+' '
+
+17:37:51 Build Finished (took 1s.114ms)
+

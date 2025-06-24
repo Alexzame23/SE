@@ -1,0 +1,21 @@
+14:56:55 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cinco_a/IDE.log'.
+14:57:02 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\practica_cinco_a\temp_xsdb_launch_script.tcl
+14:57:02 INFO  : Registering command handlers for Vitis TCF services
+14:57:02 INFO  : Platform repository initialization has completed.
+14:57:05 INFO  : XSCT server has started successfully.
+14:57:05 INFO  : Successfully done setting XSCT server connection channel  
+14:57:05 INFO  : plnx-install-location is set to ''
+14:57:06 INFO  : Successfully done setting workspace for the tool. 
+14:57:06 INFO  : Successfully done query RDI_DATADIR 
+14:57:55 INFO  : Result from executing command 'getProjects': p5a2
+14:57:55 INFO  : Result from executing command 'getPlatforms': 
+14:57:55 WARN  : An unexpected exception occurred in the module 'platform project logging'
+14:57:55 INFO  : Platform 'p5a2' is added to custom repositories.
+14:57:58 INFO  : Platform 'p5a2' is added to custom repositories.
+14:58:29 INFO  : Result from executing command 'getProjects': p5a2
+14:58:29 INFO  : Result from executing command 'getPlatforms': p5a2|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cinco_a/p5a2/export/p5a2/p5a2.xpfm
+14:58:30 INFO  : Checking for BSP changes to sync application flags for project 'practicacinco_a'...
+15:00:55 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cinco_a/p5a2/hw/download.bit' is generated.
+15:00:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:00:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+15:00:57 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cinco_a/p5a2/hw/download.bit"

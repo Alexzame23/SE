@@ -1,0 +1,63 @@
+timestamp=[2024-12-07 15:55:17], mode=WORKBENCH_START, duration=0:00:12.274, duration_ms=12274, data={}
+timestamp=[2024-12-07 15:55:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.067, duration_ms=67, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-12-07 15:55:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.071, duration_ms=71, data={}
+timestamp=[2024-12-07 15:56:00], mode=APP_CREATION, duration=0:00:06.718, duration_ms=6718, data={name=pcinco_aimage, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=p5image, application_type=application}
+timestamp=[2024-12-07 15:56:59], mode=PLATFORM_GENERATION, duration=0:00:09.276, duration_ms=9276, data={name=p5image}
+timestamp=[2024-12-07 15:57:01], mode=BUILD, duration=0:00:01.500, duration_ms=1500, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 15:57:28], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 16:02:58], mode=BUILD, duration=0:00:01.171, duration_ms=1171, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 16:02:59], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 16:04:47], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 16:04:48], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:26:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.091, duration_ms=91, data={}
+timestamp=[2024-12-11 11:26:53], mode=WORKBENCH_START, duration=0:00:20.010, duration_ms=20010, data={}
+timestamp=[2024-12-11 11:26:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.354, duration_ms=354, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,p5image,pcinco_aimage,pcinco_aimage_system}
+timestamp=[2024-12-11 11:27:46], mode=PLATFORM_GENERATION, duration=0:00:03.852, duration_ms=3852, data={name=p5image}
+timestamp=[2024-12-11 11:27:48], mode=BUILD, duration=0:00:01.214, duration_ms=1214, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:27:49], mode=BUILD, duration=0:00:00.163, duration_ms=163, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:32:08], mode=BUILD, duration=0:00:00.414, duration_ms=414, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:32:20], mode=BUILD, duration=0:00:01.136, duration_ms=1136, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:32:21], mode=BUILD, duration=0:00:00.212, duration_ms=212, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:35:19], mode=PLATFORM_GENERATION, duration=0:00:03.631, duration_ms=3631, data={name=p5image}
+timestamp=[2024-12-11 11:35:20], mode=BUILD, duration=0:00:01.369, duration_ms=1369, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:35:21], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:37:53], mode=PLATFORM_GENERATION, duration=0:00:03.628, duration_ms=3628, data={name=p5image}
+timestamp=[2024-12-11 11:37:54], mode=BUILD, duration=0:00:01.133, duration_ms=1133, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:37:55], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:41:00], mode=PLATFORM_GENERATION, duration=0:00:05.383, duration_ms=5383, data={name=p5image}
+timestamp=[2024-12-11 11:41:03], mode=BUILD, duration=0:00:02.275, duration_ms=2275, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:41:04], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:41:17], mode=BUILD, duration=0:00:01.428, duration_ms=1428, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:41:18], mode=BUILD, duration=0:00:00.336, duration_ms=336, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:41:28], mode=BUILD, duration=0:00:01.168, duration_ms=1168, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:41:29], mode=BUILD, duration=0:00:00.241, duration_ms=241, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:48:09], mode=PLATFORM_GENERATION, duration=0:00:03.540, duration_ms=3540, data={name=p5image}
+timestamp=[2024-12-11 11:48:09], mode=BUILD, duration=0:00:00.527, duration_ms=527, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:48:44], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:49:11], mode=BUILD, duration=0:00:01.028, duration_ms=1028, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:49:11], mode=BUILD, duration=0:00:00.196, duration_ms=196, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:53:32], mode=PLATFORM_GENERATION, duration=0:00:03.532, duration_ms=3532, data={name=p5image}
+timestamp=[2024-12-11 11:53:33], mode=BUILD, duration=0:00:01.140, duration_ms=1140, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:53:34], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:55:11], mode=PLATFORM_GENERATION, duration=0:00:03.556, duration_ms=3556, data={name=p5image}
+timestamp=[2024-12-11 11:55:13], mode=BUILD, duration=0:00:01.207, duration_ms=1207, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 11:55:13], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 12:00:21], mode=PLATFORM_GENERATION, duration=0:00:03.808, duration_ms=3808, data={name=p5image}
+timestamp=[2024-12-11 12:00:22], mode=BUILD, duration=0:00:00.532, duration_ms=532, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 12:00:36], mode=BUILD, duration=0:00:01.083, duration_ms=1083, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 12:00:37], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:25:15], mode=PLATFORM_GENERATION, duration=0:00:03.529, duration_ms=3529, data={name=p5image}
+timestamp=[2024-12-11 17:25:16], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:25:17], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:31:00], mode=PLATFORM_GENERATION, duration=0:00:03.509, duration_ms=3509, data={name=p5image}
+timestamp=[2024-12-11 17:31:00], mode=BUILD, duration=0:00:00.394, duration_ms=394, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:31:39], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:31:49], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:32:06], mode=BUILD, duration=0:00:00.977, duration_ms=977, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:32:07], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:34:57], mode=PLATFORM_GENERATION, duration=0:00:03.077, duration_ms=3077, data={name=p5image}
+timestamp=[2024-12-11 17:34:59], mode=BUILD, duration=0:00:01.150, duration_ms=1150, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:34:59], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:37:50], mode=PLATFORM_GENERATION, duration=0:00:02.991, duration_ms=2991, data={name=p5image}
+timestamp=[2024-12-11 17:37:51], mode=BUILD, duration=0:00:01.132, duration_ms=1132, data={name=pcinco_aimage, configuration=Debug, clean_build=false}
+timestamp=[2024-12-11 17:37:51], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=pcinco_aimage_system, configuration=Debug, clean_build=false}

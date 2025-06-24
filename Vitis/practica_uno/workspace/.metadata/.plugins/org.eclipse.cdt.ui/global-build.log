@@ -1,0 +1,49 @@
+Nothing to build in platform 'practica1'
+
+14:15:25 **** Incremental Build of configuration Debug for project practica_uno ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -ID:/SE/Vitis/practica_uno/workspace/practica1/export/practica1/sw/practica1/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+In file included from ../src/testperiph.c:9:
+D:/SE/Vitis/practica_uno/workspace/practica1/export/practica1/sw/practica1/standalone_microblaze_0/bspinclude/include/xbasic_types.h:102:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+  102 | #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+      |  ^~~~~~~
+D:/SE/Vitis/practica_uno/workspace/practica1/export/practica1/sw/practica1/standalone_microblaze_0/bspinclude/include/xbasic_types.h:103:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+  103 | #warning  Please refer the Standalone BSP UG647 for further details
+      |  ^~~~~~~
+In file included from D:/SE/Vitis/practica_uno/workspace/practica1/export/practica1/sw/practica1/standalone_microblaze_0/bspinclude/include/xgpio.h:116,
+                 from ../src/testperiph.c:4:
+../src/testperiph.c: In function 'leds':
+D:/SE/Vitis/practica_uno/workspace/practica1/export/practica1/sw/practica1/standalone_microblaze_0/bspinclude/include/xstatus.h:44:41: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   44 | #define XST_FAILURE                     1L
+      |                                         ^~
+../src/testperiph.c:18:24: note: in expansion of macro 'XST_FAILURE'
+   18 |                 return XST_FAILURE; }
+      |                        ^~~~~~~~~~~
+../src/testperiph.c:11:6: note: declared here
+   11 | void leds(int n){
+      |      ^~~~
+../src/testperiph.c: In function 'getNumber':
+../src/testperiph.c:43:32: warning: implicit declaration of function 'XUartLite_RecvByte' [-Wimplicit-function-declaration]
+   43 |                         byte = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/testperiph.c:45:25: warning: implicit declaration of function 'XUartLite_SendByte' [-Wimplicit-function-declaration]
+   45 |                         XUartLite_SendByte(XPAR_AXI_UARTLITE_0_BASEADDR,byte);
+      |                         ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practica_uno.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/SE/Vitis/practica_uno/workspace/practica1/export/practica1/sw/practica1/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practica_uno.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practica_uno.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practica_uno.elf  |tee "practica_uno.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9296	    296	   3120	  12712	   31a8	practica_uno.elf
+'Finished building: practica_uno.elf.size'
+' '
+14:15:27 **** Incremental Build of configuration Debug for project practica_uno_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

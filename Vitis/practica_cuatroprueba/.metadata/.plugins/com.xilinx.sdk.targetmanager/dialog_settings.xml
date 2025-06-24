@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="practicacuatroprueba_system-bitFile" value="${project_loc:practicacuatroprueba}/_ide/bitstream/practica4_prueba.bit"/>
+	<item key="practicacuatroprueba_system-bmmFile" value="${project_loc:practicacuatroprueba}/_ide/bitstream/practica4_prueba.mmi"/>
+	<item key="practicacuatroprueba_system-target" value="Local"/>
+	<item key="practicacuatroprueba_system-device" value="Auto Detect"/>
+	<item key="practicacuatroprueba_system-partial_bit" value="false"/>
+	<item key="practicacuatroprueba_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="practicacuatroprueba_system"/>
+	<item key="practicacuatroprueba_system-microblaze_0-initElf" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\practica_cuatroprueba\practicacuatroprueba\Debug\practicacuatroprueba.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183B31CDAA&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183B31CDAA-0362d093-0&quot;}}]}"/>
+</section>

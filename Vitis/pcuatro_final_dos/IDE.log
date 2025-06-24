@@ -1,0 +1,43 @@
+17:04:14 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/IDE.log'.
+17:04:19 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcuatro_final_dos\temp_xsdb_launch_script.tcl
+17:04:19 INFO  : Platform repository initialization has completed.
+17:04:20 INFO  : Registering command handlers for Vitis TCF services
+17:04:24 INFO  : XSCT server has started successfully.
+17:04:24 INFO  : plnx-install-location is set to ''
+17:04:24 INFO  : Successfully done setting XSCT server connection channel  
+17:04:29 INFO  : Successfully done setting workspace for the tool. 
+17:04:29 INFO  : Successfully done query RDI_DATADIR 
+17:05:35 INFO  : Result from executing command 'getProjects': p4final2
+17:05:35 INFO  : Result from executing command 'getPlatforms': 
+17:05:35 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:05:36 INFO  : Platform 'p4final2' is added to custom repositories.
+17:05:42 INFO  : Platform 'p4final2' is added to custom repositories.
+17:12:24 INFO  : Result from executing command 'getProjects': p4final2
+17:12:24 INFO  : Result from executing command 'getPlatforms': p4final2|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/p4final2/export/p4final2/p4final2.xpfm
+17:12:24 INFO  : Checking for BSP changes to sync application flags for project 'pcuatro_dos'...
+17:13:31 INFO  : Checking for BSP changes to sync application flags for project 'pcuatro_dos'...
+17:14:05 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/pcuatro_dos/_ide/bitstream/download.bit' is generated.
+17:14:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:14:38 INFO  : Checking for BSP changes to sync application flags for project 'pcuatro_dos'...
+17:15:03 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/pcuatro_dos/_ide/bitstream/download.bit' is generated.
+17:15:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:15:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:15:05 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/pcuatro_dos/_ide/bitstream/download.bit"
+20:31:56 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/IDE.log'.
+20:31:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcuatro_final_dos\temp_xsdb_launch_script.tcl
+20:32:02 INFO  : Platform repository initialization has completed.
+20:32:03 INFO  : Registering command handlers for Vitis TCF services
+20:32:03 INFO  : XSCT server has started successfully.
+20:32:03 INFO  : Successfully done setting XSCT server connection channel  
+20:32:03 INFO  : plnx-install-location is set to ''
+20:32:07 INFO  : Successfully done setting workspace for the tool. 
+20:32:07 INFO  : Successfully done query RDI_DATADIR 
+15:49:06 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/IDE.log'.
+15:49:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcuatro_final_dos\temp_xsdb_launch_script.tcl
+15:49:15 INFO  : Registering command handlers for Vitis TCF services
+15:49:15 INFO  : XSCT server has started successfully.
+15:49:15 INFO  : plnx-install-location is set to ''
+15:49:15 INFO  : Successfully done setting XSCT server connection channel  
+15:49:21 INFO  : Platform repository initialization has completed.
+15:49:40 INFO  : Successfully done query RDI_DATADIR 
+15:49:40 INFO  : Successfully done setting workspace for the tool. 

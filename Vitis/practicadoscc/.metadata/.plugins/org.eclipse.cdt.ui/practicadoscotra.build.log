@@ -1,0 +1,21 @@
+16:51:51 **** Build of configuration Debug for project practicadoscotra ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -ID:/SE/Vitis/practicadoscc/practica2otramas/export/practica2otramas/sw/practica2otramas/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practicadoscotra.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/SE/Vitis/practicadoscc/practica2otramas/export/practica2otramas/sw/practica2otramas/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practicadoscotra.elf"  ./src/testperiph.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practicadoscotra.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practicadoscotra.elf  |tee "practicadoscotra.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5856	    268	   3108	   9232	   2410	practicadoscotra.elf
+'Finished building: practicadoscotra.elf.size'
+' '
+
+16:51:52 Build Finished (took 1s.33ms)
+

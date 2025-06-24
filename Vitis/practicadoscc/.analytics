@@ -1,0 +1,7 @@
+timestamp=[2024-11-20 16:47:22], mode=WORKBENCH_START, duration=0:00:08.402, duration_ms=8402, data={}
+timestamp=[2024-11-20 16:47:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.029, duration_ms=29, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-20 16:47:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.298, duration_ms=298, data={}
+timestamp=[2024-11-20 16:49:40], mode=APP_CREATION, duration=0:00:41.171, duration_ms=41171, data={name=practicadoscotra, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=practica2otramas, application_type=application}
+timestamp=[2024-11-20 16:51:51], mode=PLATFORM_GENERATION, duration=0:00:31.425, duration_ms=31425, data={name=practica2otramas}
+timestamp=[2024-11-20 16:51:52], mode=BUILD, duration=0:00:01.107, duration_ms=1107, data={name=practicadoscotra, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 16:51:53], mode=BUILD, duration=0:00:00.333, duration_ms=333, data={name=practicadoscotra_system, configuration=Debug, clean_build=false}

@@ -1,0 +1,23 @@
+Nothing to build in platform 'p4prueba2'
+
+12:41:20 **** Incremental Build of configuration Debug for project practicacuatro_pruebados ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -IC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/p4prueba2/export/p4prueba2/sw/p4prueba2/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practicacuatro_pruebados.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/p4prueba2/export/p4prueba2/sw/p4prueba2/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practicacuatro_pruebados.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practicacuatro_pruebados.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practicacuatro_pruebados.elf  |tee "practicacuatro_pruebados.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5944	    272	   3104	   9320	   2468	practicacuatro_pruebados.elf
+'Finished building: practicacuatro_pruebados.elf.size'
+' '
+12:41:22 **** Incremental Build of configuration Debug for project practicacuatro_pruebados_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

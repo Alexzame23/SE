@@ -1,0 +1,6 @@
+17:54:07 **** Incremental Build of configuration Debug for project pcuatro_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+17:54:07 Build Finished (took 209ms)
+

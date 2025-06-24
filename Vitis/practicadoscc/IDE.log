@@ -1,0 +1,21 @@
+16:47:17 DEBUG : Logs will be stored at 'D:/SE/Vitis/practicadoscc/IDE.log'.
+16:47:23 INFO  : Registering command handlers for Vitis TCF services
+16:47:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practicadoscc\temp_xsdb_launch_script.tcl
+16:47:23 INFO  : Platform repository initialization has completed.
+16:47:26 INFO  : XSCT server has started successfully.
+16:47:26 INFO  : plnx-install-location is set to ''
+16:47:27 INFO  : Successfully done setting XSCT server connection channel  
+16:47:27 INFO  : Successfully done query RDI_DATADIR 
+16:47:27 INFO  : Successfully done setting workspace for the tool. 
+16:49:27 INFO  : Result from executing command 'getProjects': practica2otramas
+16:49:28 INFO  : Result from executing command 'getPlatforms': 
+16:49:29 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:49:32 INFO  : Platform 'practica2otramas' is added to custom repositories.
+16:49:40 INFO  : Platform 'practica2otramas' is added to custom repositories.
+16:51:50 INFO  : Result from executing command 'getProjects': practica2otramas
+16:51:50 INFO  : Result from executing command 'getPlatforms': practica2otramas|D:/SE/Vitis/practicadoscc/practica2otramas/export/practica2otramas/practica2otramas.xpfm
+16:51:51 INFO  : Checking for BSP changes to sync application flags for project 'practicadoscotra'...
+16:52:29 INFO  : Bit file 'D:/SE/Vitis/practicadoscc/practicadoscotra/_ide/bitstream/download.bit' is generated.
+16:52:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:52:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E94A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3E94A-0362d093-0"}' command is executed.
+16:52:34 INFO  : Device configured successfully with "D:/SE/Vitis/practicadoscc/practicadoscotra/_ide/bitstream/download.bit"

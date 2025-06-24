@@ -1,0 +1,48 @@
+timestamp=[2024-12-04 16:13:09], mode=WORKBENCH_START, duration=0:00:09.571, duration_ms=9571, data={}
+timestamp=[2024-12-04 16:13:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.021, duration_ms=21, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-12-04 16:13:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.152, duration_ms=152, data={}
+timestamp=[2024-12-04 16:14:04], mode=WORKBENCH_START, duration=0:00:07.589, duration_ms=7589, data={}
+timestamp=[2024-12-04 16:14:05], mode=WORKBENCH_UI_INIT, duration=0:00:01.076, duration_ms=1076, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2024-12-04 16:14:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.059, duration_ms=59, data={}
+timestamp=[2024-12-04 16:15:06], mode=APP_CREATION, duration=0:00:13.306, duration_ms=13306, data={name=practica_tres_final, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=practica3final, application_type=application}
+timestamp=[2024-12-04 16:19:20], mode=PLATFORM_GENERATION, duration=0:00:13.015, duration_ms=13015, data={name=practica3final}
+timestamp=[2024-12-04 16:19:23], mode=BUILD, duration=0:00:02.856, duration_ms=2856, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:19:24], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:25:55], mode=BUILD, duration=0:00:01.259, duration_ms=1259, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:26:51], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:27:08], mode=BUILD, duration=0:00:01.282, duration_ms=1282, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:27:15], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:27:16], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:27:54], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:27:55], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:36:59], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:37:36], mode=BUILD, duration=0:00:00.900, duration_ms=900, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:37:36], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:40:18], mode=BUILD, duration=0:00:00.915, duration_ms=915, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:40:18], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:43:01], mode=BUILD, duration=0:00:00.916, duration_ms=916, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:43:01], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:44:29], mode=BUILD, duration=0:00:00.929, duration_ms=929, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:44:30], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:45:46], mode=BUILD, duration=0:00:00.897, duration_ms=897, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:45:46], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:47:07], mode=BUILD, duration=0:00:00.976, duration_ms=976, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:47:08], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:48:15], mode=BUILD, duration=0:00:00.983, duration_ms=983, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:48:16], mode=BUILD, duration=0:00:00.207, duration_ms=207, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:50:11], mode=BUILD, duration=0:00:00.967, duration_ms=967, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:50:11], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:50:20], mode=BUILD, duration=0:00:00.967, duration_ms=967, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:50:20], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:56:14], mode=BUILD, duration=0:00:00.899, duration_ms=899, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:56:15], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:58:45], mode=BUILD, duration=0:00:00.906, duration_ms=906, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 16:58:46], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:00:03], mode=BUILD, duration=0:00:00.910, duration_ms=910, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:00:03], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:00:42], mode=BUILD, duration=0:00:01.089, duration_ms=1089, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:00:43], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:02:24], mode=BUILD, duration=0:00:00.979, duration_ms=979, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:02:25], mode=BUILD, duration=0:00:00.157, duration_ms=157, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:04:42], mode=BUILD, duration=0:00:00.915, duration_ms=915, data={name=practica_tres_final, configuration=Debug, clean_build=false}
+timestamp=[2024-12-04 17:04:43], mode=BUILD, duration=0:00:00.208, duration_ms=208, data={name=practica_tres_final_system, configuration=Debug, clean_build=false}

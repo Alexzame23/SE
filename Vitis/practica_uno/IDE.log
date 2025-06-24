@@ -1,0 +1,18 @@
+04:28:59 DEBUG : Logs will be stored at 'D:/SE/Vitis/practica_uno/IDE.log'.
+04:29:06 INFO  : Registering command handlers for Vitis TCF services
+04:29:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practica_uno\temp_xsdb_launch_script.tcl
+04:29:06 INFO  : Platform repository initialization has completed.
+04:29:11 INFO  : XSCT server has started successfully.
+04:29:15 INFO  : plnx-install-location is set to ''
+04:29:15 INFO  : Successfully done setting XSCT server connection channel  
+04:29:15 INFO  : Successfully done query RDI_DATADIR 
+04:29:15 INFO  : Successfully done setting workspace for the tool. 
+13:19:24 DEBUG : Logs will be stored at 'D:/SE/Vitis/practica_uno/IDE.log'.
+13:19:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practica_uno\temp_xsdb_launch_script.tcl
+13:19:29 INFO  : Registering command handlers for Vitis TCF services
+13:19:29 INFO  : Platform repository initialization has completed.
+13:19:33 INFO  : XSCT server has started successfully.
+13:19:33 INFO  : plnx-install-location is set to ''
+13:19:34 INFO  : Successfully done setting XSCT server connection channel  
+13:19:34 INFO  : Successfully done query RDI_DATADIR 
+13:19:34 INFO  : Successfully done setting workspace for the tool. 

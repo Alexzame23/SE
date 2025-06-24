@@ -1,0 +1,8 @@
+Nothing to build in platform 'practica_dosc'
+
+16:06:13 **** Incremental Build of configuration Debug for project practica_doc ****
+make all 
+make: Nothing to be done for 'all'.
+16:06:14 **** Incremental Build of configuration Debug for project practica_doc_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

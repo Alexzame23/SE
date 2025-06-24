@@ -1,0 +1,6 @@
+16:51:53 **** Build of configuration Debug for project practicadoscotra_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+16:51:53 Build Finished (took 255ms)
+

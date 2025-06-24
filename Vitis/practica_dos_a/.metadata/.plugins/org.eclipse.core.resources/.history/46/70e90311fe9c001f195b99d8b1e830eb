@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "copro.h"
+int main () 
+{
+	u32 status;
+	u32 DataRead;
+
+	COPRO_mWriteReg(XPAR_COPRO_0_S00_AXI_BASEADDR,
+	COPRO_S00_AXI_SLV_REG0_OFFSET, 0x00000000);
+
+
+
+
+	return 0;
+}

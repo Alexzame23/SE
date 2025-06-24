@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="pcuatro_dos" location="C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/pcuatro_dos" platform="C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final_dos/p4final2/export/p4final2/p4final2.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="pcuatro_dos_system" sysConfig="p4final2" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="bb6d097b71f484d5a6881a376091a272">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.363562506">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1215046200" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

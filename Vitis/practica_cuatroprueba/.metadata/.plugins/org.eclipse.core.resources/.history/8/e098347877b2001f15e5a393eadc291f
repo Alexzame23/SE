@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "conversorad.h"
+#include "matrizpuntos.h"
+#include "sleep.h"
+
+#define MATRIZ_BASEADDR XPAR_MATRIZPUNTOS_0_S00_AXI_BASEADDR
+
+//// Patrones para los caracteres
+const u8 CHARACTERS[7][8] = {
+    {4, 4, 4, 4, 4, 4, 4, 4},       // I
+	{0, 0, 0, 0, 0, 0, 0, 0},  // ❤
+	{0, 0, 0, 0, 0, 0, 0, 0}, // C
+	{0, 0, 0, 0, 0, 0, 0, 0}, // O
+	{0, 0, 0, 0, 0, 0, 0, 0}, // P
+	{0, 0, 0, 0, 0, 0, 0, 0}, // R
+    {0, 0, 0, 0, 0, 0, 0, 0}  // O
+    //{0, 0, 0, 0, 0, 0, 0, 0}  // O
+};
+
+void write_character_to_ram(u32 char_idx, const u8 *char_data) {
+    for (u32 row = 0; row < 8; row++) {
+        u8 dato = char_data[row]; // Dato de 5 bits para la fila
+
+        u32 reg_value = 0;
+        reg_value |= (char_idx & 0x7) << 24;    // fila (bits 26:24)
+        reg_value |= (row & 0x7) << 17;         // columna (bits 19:17)
+        reg_value |= (dato & 0x1F) << 8;        // dato (bits 12:8)
+
+        // Escribir en slv_reg0 para establecer 'fila', 'columna', 'dato'
+        MATRIZPUNTOS_mWriteReg(MATRIZ_BASEADDR, MATRIZPUNTOS_S00_AXI_SLV_REG0_OFFSET, reg_value);
+
+        // La señal 'load' se activa automáticamente al escribir en slv_reg0
+        usleep(100); // Pequeño retraso para asegurar la escritura
+    }
+}
+
+
+int main() {
+    // Escribir los patrones de cada carácter en la RAM
+    for (u32 char_idx = 0; char_idx < 7; char_idx++) {
+        write_character_to_ram(char_idx, CHARACTERS[char_idx]);
+    }
+
+    // Bucle principal
+    while (1) {
+        // El módulo VHDL maneja la visualización continua del mensaje
+        usleep(1000000); // Esperar 1 segundo
+    }
+
+    return 0;
+}
+

@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "copro.h"
+int main () 
+{
+	u32 data_read;
+	while(1){
+		COPRO_mWriteReg(XPAR_COPRO_0_COPRO_S00_AXI_BASEADDR,
+				COPRO_COPRO_S00_AXI_SLV_REG0_OFFSET, 0x00000000);
+
+		/* Modificamos los registros 1 y 2 */
+		COPRO_mWriteReg(XPAR_COPRO_COPRO_0_S00_AXI_BASEADDR,
+				COPRO_COPRO_S00_AXI_SLV_REG1_OFFSET, 0x0005);
+		COPRO_mWriteReg(XPAR_COPRO_COPRO_0_S00_AXI_BASEADDR,
+				COPRO_COPRO_S00_AXI_SLV_REG2_OFFSET, 0x0002);
+		/* Leemos el contenido de los 3 registros */
+		data_read= COPRO_mReadReg(XPAR_COPRO_COPRO_0_S00_AXI_BASEADDR,
+				COPRO_COPRO_S00_AXI_SLV_REG0_OFFSET);
+		xil_printf("valor del registro 0 = %d\n\r", data_read);
+		data_read= COPRO_mReadReg(XPAR_COPRO_COPRO_0_S00_AXI_BASEADDR,
+				COPRO_COPRO_S00_AXI_SLV_REG1_OFFSET);
+		xil_printf("valor del registro 1 = %d\n\r", data_read);
+		data_read= COPRO_mReadReg(XPAR_COPRO_COPRO_0_S00_AXI_BASEADDR,
+				COPRO_COPRO_S00_AXI_SLV_REG2_OFFSET);
+		xil_printf("valor del registro 2 = %d\n\r", data_read);
+
+		data_read=
+				COPRO_mReadReg(XPAR_COPRO_COPRO_0_S00_AXI_BASEADDR,
+						COPRO_COPRO_S00_AXI_SLV_REG3_OFFSET);
+		xil_printf("valor del registro 3 = %d\n\r",
+				data_read);
+
+		for(int i = 0; i < 1000000; i++);
+	}
+	return 0;
+}

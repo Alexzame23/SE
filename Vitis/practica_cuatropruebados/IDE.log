@@ -1,0 +1,31 @@
+12:35:04 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/IDE.log'.
+12:35:15 INFO  : Registering command handlers for Vitis TCF services
+12:35:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\practica_cuatropruebados\temp_xsdb_launch_script.tcl
+12:35:15 INFO  : Platform repository initialization has completed.
+12:35:21 INFO  : XSCT server has started successfully.
+12:35:25 INFO  : Successfully done setting XSCT server connection channel  
+12:35:25 INFO  : plnx-install-location is set to ''
+12:35:25 INFO  : Successfully done query RDI_DATADIR 
+12:35:25 INFO  : Successfully done setting workspace for the tool. 
+12:36:07 INFO  : Result from executing command 'getProjects': p4prueba2
+12:36:07 INFO  : Result from executing command 'getPlatforms': 
+12:36:07 WARN  : An unexpected exception occurred in the module 'platform project logging'
+12:36:07 INFO  : Platform 'p4prueba2' is added to custom repositories.
+12:36:13 INFO  : Platform 'p4prueba2' is added to custom repositories.
+12:37:20 INFO  : Result from executing command 'getProjects': p4prueba2
+12:37:20 INFO  : Result from executing command 'getPlatforms': p4prueba2|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/p4prueba2/export/p4prueba2/p4prueba2.xpfm
+12:37:21 INFO  : Checking for BSP changes to sync application flags for project 'practicacuatro_pruebados'...
+12:37:42 INFO  : Checking for BSP changes to sync application flags for project 'practicacuatro_pruebados'...
+12:37:56 INFO  : Checking for BSP changes to sync application flags for project 'practicacuatro_pruebados'...
+12:38:54 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/practicacuatro_pruebados/_ide/bitstream/download.bit' is generated.
+12:38:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:38:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+12:38:58 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/practicacuatro_pruebados/_ide/bitstream/download.bit"
+12:39:54 INFO  : Checking for BSP changes to sync application flags for project 'practicacuatro_pruebados'...
+12:40:45 INFO  : Checking for BSP changes to sync application flags for project 'practicacuatro_pruebados'...
+12:40:55 INFO  : Checking for BSP changes to sync application flags for project 'practicacuatro_pruebados'...
+12:41:19 INFO  : Checking for BSP changes to sync application flags for project 'practicacuatro_pruebados'...
+12:41:54 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/practicacuatro_pruebados/_ide/bitstream/download.bit' is generated.
+12:41:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:41:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+12:41:55 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatropruebados/practicacuatro_pruebados/_ide/bitstream/download.bit"

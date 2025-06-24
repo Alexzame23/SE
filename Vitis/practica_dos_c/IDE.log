@@ -1,0 +1,31 @@
+11:50:44 DEBUG : Logs will be stored at 'D:/SE/Vitis/practica_dos_c/IDE.log'.
+11:50:50 INFO  : Registering command handlers for Vitis TCF services
+11:50:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practica_dos_c\temp_xsdb_launch_script.tcl
+11:50:51 INFO  : Platform repository initialization has completed.
+11:50:55 INFO  : XSCT server has started successfully.
+11:50:55 INFO  : plnx-install-location is set to ''
+11:50:57 INFO  : Successfully done setting XSCT server connection channel  
+11:50:57 INFO  : Successfully done query RDI_DATADIR 
+11:50:57 INFO  : Successfully done setting workspace for the tool. 
+11:54:44 INFO  : Result from executing command 'getProjects': practica_dosc
+11:54:44 INFO  : Result from executing command 'getPlatforms': 
+11:54:45 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:54:47 INFO  : Platform 'practica_dosc' is added to custom repositories.
+11:54:54 INFO  : Platform 'practica_dosc' is added to custom repositories.
+11:58:02 INFO  : Result from executing command 'getProjects': practica_dosc
+11:58:02 INFO  : Result from executing command 'getPlatforms': practica_dosc|D:/SE/Vitis/practica_dos_c/practica_dosc/export/practica_dosc/practica_dosc.xpfm
+11:58:03 INFO  : Checking for BSP changes to sync application flags for project 'practica_doc'...
+16:05:30 DEBUG : Logs will be stored at 'D:/SE/Vitis/practica_dos_c/IDE.log'.
+16:05:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practica_dos_c\temp_xsdb_launch_script.tcl
+16:05:35 INFO  : XSCT server has started successfully.
+16:05:35 INFO  : Successfully done setting XSCT server connection channel  
+16:05:35 INFO  : plnx-install-location is set to ''
+16:05:35 INFO  : Successfully done setting workspace for the tool. 
+16:05:36 INFO  : Platform repository initialization has completed.
+16:05:36 INFO  : Registering command handlers for Vitis TCF services
+16:05:37 INFO  : Successfully done query RDI_DATADIR 
+16:06:10 INFO  : Checking for BSP changes to sync application flags for project 'practica_doc'...
+16:06:52 INFO  : Bit file 'D:/SE/Vitis/practica_dos_c/practica_doc/_ide/bitstream/download.bit' is generated.
+16:06:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:06:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3FB7A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3FB7A-0362d093-0"}' command is executed.
+16:06:57 INFO  : Device configured successfully with "D:/SE/Vitis/practica_dos_c/practica_doc/_ide/bitstream/download.bit"

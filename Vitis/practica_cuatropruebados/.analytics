@@ -1,0 +1,17 @@
+timestamp=[2024-12-07 12:35:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.006, duration_ms=6, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-12-07 12:35:13], mode=WORKBENCH_START, duration=0:00:13.970, duration_ms=13970, data={}
+timestamp=[2024-12-07 12:35:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.116, duration_ms=116, data={}
+timestamp=[2024-12-07 12:36:13], mode=APP_CREATION, duration=0:00:13.685, duration_ms=13685, data={name=practicacuatro_pruebados, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=p4prueba2, application_type=application}
+timestamp=[2024-12-07 12:37:21], mode=PLATFORM_GENERATION, duration=0:00:11.535, duration_ms=11535, data={name=p4prueba2}
+timestamp=[2024-12-07 12:37:22], mode=BUILD, duration=0:00:01.617, duration_ms=1617, data={name=practicacuatro_pruebados, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:37:43], mode=BUILD, duration=0:00:00.712, duration_ms=712, data={name=practicacuatro_pruebados, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:37:57], mode=BUILD, duration=0:00:01.046, duration_ms=1046, data={name=practicacuatro_pruebados, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:37:58], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=practicacuatro_pruebados_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:39:55], mode=BUILD, duration=0:00:01.068, duration_ms=1068, data={name=practicacuatro_pruebados, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:39:55], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=practicacuatro_pruebados_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:40:45], mode=BUILD, duration=0:00:00.403, duration_ms=403, data={name=practicacuatro_pruebados, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:40:46], mode=BUILD, duration=0:00:00.242, duration_ms=242, data={name=practicacuatro_pruebados_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:40:55], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=practicacuatro_pruebados, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:40:56], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=practicacuatro_pruebados_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:41:22], mode=BUILD, duration=0:00:02.005, duration_ms=2005, data={name=practicacuatro_pruebados, configuration=Debug, clean_build=false}
+timestamp=[2024-12-07 12:41:22], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=practicacuatro_pruebados_system, configuration=Debug, clean_build=false}

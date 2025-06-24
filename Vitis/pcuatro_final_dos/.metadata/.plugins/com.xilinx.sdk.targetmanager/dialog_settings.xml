@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="pcuatro_dos_system-bitFile" value="${project_loc:pcuatro_dos}/_ide/bitstream/p4final2.bit"/>
+	<item key="pcuatro_dos_system-bmmFile" value="${project_loc:pcuatro_dos}/_ide/bitstream/p4final2.mmi"/>
+	<item key="pcuatro_dos_system-target" value="Local"/>
+	<item key="pcuatro_dos_system-device" value="Auto Detect"/>
+	<item key="pcuatro_dos_system-partial_bit" value="false"/>
+	<item key="pcuatro_dos_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="pcuatro_dos_system"/>
+	<item key="pcuatro_dos_system-microblaze_0-initElf" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcuatro_final_dos\pcuatro_dos\Debug\pcuatro_dos.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183BB7CB2A&quot;,&quot;indexContextMap&quot;:{&quot;8&quot;:&quot;jsn-Basys3-210183BB7CB2A-0362d093-0&quot;}}]}"/>
+</section>

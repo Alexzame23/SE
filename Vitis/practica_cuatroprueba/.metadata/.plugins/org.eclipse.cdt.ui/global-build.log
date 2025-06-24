@@ -1,0 +1,32 @@
+Nothing to build in platform 'practica4_prueba'
+
+21:00:16 **** Incremental Build of configuration Debug for project practicacuatroprueba ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -IC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/export/practica4_prueba/sw/practica4_prueba/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+../src/testperiph.c: In function 'main':
+../src/testperiph.c:121:20: warning: passing argument 1 of 'scroll_message' from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |     scroll_message(CHARACTERS, 16, 8); // Mensaje de 16 caracteres, matriz de 8 columnas
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    const uint8_t (*)[16] {aka const unsigned char (*)[16]}
+../src/testperiph.c:85:35: note: expected 'const uint8_t (*)[8]' {aka 'const unsigned char (*)[8]'} but argument is of type 'const uint8_t (*)[16]' {aka 'const unsigned char (*)[16]'}
+   85 | void scroll_message(const uint8_t characters[][8], uint32_t num_chars, uint32_t matrix_width) {
+      |                     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practicacuatroprueba.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/export/practica4_prueba/sw/practica4_prueba/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practicacuatroprueba.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practicacuatroprueba.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practicacuatroprueba.elf  |tee "practicacuatroprueba.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3188	    272	   3108	   6568	   19a8	practicacuatroprueba.elf
+'Finished building: practicacuatroprueba.elf.size'
+' '
+21:00:17 **** Incremental Build of configuration Debug for project practicacuatroprueba_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

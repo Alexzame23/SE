@@ -1,0 +1,21 @@
+13:54:36 **** Incremental Build of configuration Debug for project practica_dos_a ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -ID:/SE/Vitis/practica_dos_a/p2a_wrapper/export/p2a_wrapper/sw/p2a_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practica_dos_a.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/SE/Vitis/practica_dos_a/p2a_wrapper/export/p2a_wrapper/sw/p2a_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practica_dos_a.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practica_dos_a.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practica_dos_a.elf  |tee "practica_dos_a.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5856	    268	   3108	   9232	   2410	practica_dos_a.elf
+'Finished building: practica_dos_a.elf.size'
+' '
+
+13:54:38 Build Finished (took 2s.161ms)
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="pcinco_aimage_system-bitFile" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcinco_a\p5image\hw\p5image.bit"/>
+	<item key="pcinco_aimage_system-bmmFile" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcinco_a\p5image\hw\p5image.mmi"/>
+	<item key="pcinco_aimage_system-target" value="Local"/>
+	<item key="pcinco_aimage_system-device" value="Auto Detect"/>
+	<item key="pcinco_aimage_system-partial_bit" value="false"/>
+	<item key="pcinco_aimage_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="pcinco_aimage_system"/>
+	<item key="pcinco_aimage_system-microblaze_0-initElf" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcinco_a\pcinco_aimage\Debug\pcinco_aimage.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183BB7CB2A&quot;,&quot;indexContextMap&quot;:{&quot;8&quot;:&quot;jsn-Basys3-210183BB7CB2A-0362d093-0&quot;}}]}"/>
+</section>

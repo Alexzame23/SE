@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="pcinco_aimage" location="C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/pcinco_aimage" platform="C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="pcinco_aimage_system" sysConfig="p5image" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="7fbe8a1213a54534c91fd1cab96223d2">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1259506904" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.720233534" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,30 @@
+timestamp=[2024-10-25 08:37:43], mode=WORKBENCH_START, duration=0:00:05.258, duration_ms=5258, data={}
+timestamp=[2024-10-25 08:37:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.000, duration_ms=0, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-10-25 08:37:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.078, duration_ms=1078, data={}
+timestamp=[2024-10-25 08:38:56], mode=APP_CREATION, duration=0:00:31.520, duration_ms=31520, data={name=practica1, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=D:\SE\Vitis\practica_uno\workspace\practica1\export\practica1\practica1.xpfm, application_type=application}
+timestamp=[2024-10-25 08:40:58], mode=WORKBENCH_START, duration=0:00:07.667, duration_ms=7667, data={}
+timestamp=[2024-10-25 08:40:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.164, duration_ms=164, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2024-10-25 08:41:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.877, duration_ms=877, data={}
+timestamp=[2024-10-25 08:42:43], mode=APP_CREATION, duration=0:00:27.711, duration_ms=27711, data={name=practica_uno, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=practica1, application_type=application}
+timestamp=[2024-10-25 08:48:07], mode=PLATFORM_GENERATION, duration=0:00:16.637, duration_ms=16637, data={name=practica1}
+timestamp=[2024-10-25 08:48:09], mode=BUILD, duration=0:00:01.142, duration_ms=1142, data={name=practica_uno, configuration=Debug, clean_build=false}
+timestamp=[2024-10-25 08:48:09], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=practica_uno_system, configuration=Debug, clean_build=false}
+timestamp=[2024-10-27 04:29:54], mode=WORKBENCH_START, duration=0:00:08.851, duration_ms=8851, data={}
+timestamp=[2024-10-27 04:29:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.603, duration_ms=603, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,practica1,practica_uno,practica_uno_system}
+timestamp=[2024-10-27 04:29:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.181, duration_ms=181, data={}
+timestamp=[2024-10-27 07:18:37], mode=WORKBENCH_START, duration=0:00:13.356, duration_ms=13356, data={}
+timestamp=[2024-10-27 07:18:38], mode=WORKBENCH_UI_INIT, duration=0:00:01.009, duration_ms=1009, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,practica1,practica_uno,practica_uno_system}
+timestamp=[2024-10-27 07:18:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.235, duration_ms=235, data={}
+timestamp=[2024-10-28 14:09:26], mode=PLATFORM_GENERATION, duration=30:50:01.968, duration_ms=111001968, data={name=practica1}
+timestamp=[2024-10-28 14:09:32], mode=BUILD, duration=0:00:04.201, duration_ms=4201, data={name=practica_uno, configuration=Debug, clean_build=false}
+timestamp=[2024-10-28 14:09:34], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=practica_uno_system, configuration=Debug, clean_build=false}
+timestamp=[2024-10-28 14:15:27], mode=BUILD, duration=0:00:01.334, duration_ms=1334, data={name=practica_uno, configuration=Debug, clean_build=false}
+timestamp=[2024-10-28 14:15:27], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=practica_uno_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 13:20:25], mode=WORKBENCH_START, duration=0:00:07.739, duration_ms=7739, data={}
+timestamp=[2024-11-07 13:20:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.825, duration_ms=825, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,practica1,practica_uno,practica_uno_system}
+timestamp=[2024-11-25 16:41:06], mode=WORKBENCH_START, duration=0:00:09.751, duration_ms=9751, data={}
+timestamp=[2024-11-25 16:41:07], mode=WORKBENCH_UI_INIT, duration=0:00:01.354, duration_ms=1354, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,practica1,practica_uno,practica_uno_system}
+timestamp=[2024-11-25 16:41:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.160, duration_ms=160, data={}
+timestamp=[2024-11-28 13:37:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.143, duration_ms=143, data={}
+timestamp=[2024-11-28 13:37:04], mode=WORKBENCH_START, duration=0:00:09.347, duration_ms=9347, data={}
+timestamp=[2024-11-28 13:37:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.479, duration_ms=479, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,practica1,practica_uno,practica_uno_system}

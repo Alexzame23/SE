@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="practica_dos_a" location="D:/SE/Vitis/practica_dos_a/practica_dos_a" platform="D:/SE/Vitis/practica_dos_a/p2a_wrapper/export/p2a_wrapper/p2a_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="practica_dos_a_system" sysConfig="p2a_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="25cf92379b301ed854748299aee1924e">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1041749698">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1651434291" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

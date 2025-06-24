@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="practica_uno_system-bitFile" value="${project_loc:practica_uno}/_ide/bitstream/practica1.bit"/>
+	<item key="practica_uno_system-bmmFile" value="${project_loc:practica_uno}/_ide/bitstream/practica1.mmi"/>
+	<item key="practica_uno_system-target" value="Local"/>
+	<item key="practica_uno_system-device" value="Auto Detect"/>
+	<item key="practica_uno_system-partial_bit" value="false"/>
+	<item key="practica_uno_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="practica_uno_system"/>
+	<item key="practica_uno_system-microblaze_0-initElf" value="D:\SE\Vitis\practica_uno\workspace\practica_uno\Debug\practica_uno.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183ACA6ACA&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183ACA6ACA-0362d093-0&quot;}}]}"/>
+</section>

@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "teclado.h"
+#include "rgb_leds.h"
+int main () 
+{
+	Xil_ICacheEnable();
+	Xil_DCacheEnable();
+	print("---Entering main---\n\r");
+	while(1){
+		RGB_LEDS_Reg_SelfTest(void * baseaddr_p);
+
+	}
+
+	{
+		u32 TeclaOld;
+		u32 DataRead;
+
+		print(" ---Test para el keypad ---\n\r");
+		xil_printf(" Pulse una tecla cualquiera \n\r");
+		DataRead = TECLADO_mReadReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0);
+		xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , DataRead );
+		TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0);
+		TeclaOld = DataRead ; /* Se escribe un 0 para borrar la última tecla leída */
+		while (1) {
+			if ( DataRead != TeclaOld ) {
+				xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , DataRead );
+				TeclaOld = DataRead ;
+			}
+			DataRead = TECLADO_mReadReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0);
+			TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0); /* Se escribe un 0 para borrar la última tecla leída */
+			for(int j = 0; j < 10000000; j++);
+		}
+	}
+	return 0;
+}

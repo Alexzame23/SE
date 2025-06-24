@@ -1,0 +1,31 @@
+Nothing to build in platform 'p4final'
+
+17:54:06 **** Incremental Build of configuration Debug for project pcuatro ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -IC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final/p4final/export/p4final/sw/p4final/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+In file included from ../src/testperiph.c:11:
+../src/testperiph.c: In function 'main':
+../src/matrizpuntos.h:35:33: warning: integer overflow in expression of type 'int' results in '-1992163328' [-Woverflow]
+   35 |         Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+      |                                 ^
+../src/testperiph.c:129:17: note: in expansion of macro 'MATRIZPUNTOS_mWriteReg'
+  129 |                 MATRIZPUNTOS_mWriteReg(MATRIZ_BASEADDR, XPAR_MATRIZPUNTOS_0_S00_AXI_BASEADDR, persistence);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: pcuatro.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcuatro_final/p4final/export/p4final/sw/p4final/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pcuatro.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pcuatro.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pcuatro.elf  |tee "pcuatro.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6424	    272	   3104	   9800	   2648	pcuatro.elf
+'Finished building: pcuatro.elf.size'
+' '
+17:54:07 **** Incremental Build of configuration Debug for project pcuatro_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

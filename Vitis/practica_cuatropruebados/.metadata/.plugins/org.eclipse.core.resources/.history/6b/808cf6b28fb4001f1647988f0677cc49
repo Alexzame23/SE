@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_io.h"
+#include "sleep.h"
+#include "altavoz.h"
+
+// Asumiendo que en tu sistema el periférico se llama altavoz_0
+// y que en el archivo xparameters.h tienes algo como:
+// #define XPAR_ALTAVOZ_0_S00_AXI_BASEADDR 0x43C00000
+// Ajusta esta dirección base si tu peripheral tiene otra.
+#define ALTAVOZ_BASEADDR XPAR_ALTAVOZ_0_S00_AXI_BASEADDR
+
+int main() {
+    // Inicialización de la UART para imprimir por consola (opcional)
+    //init_platform();
+
+    print("Iniciando prueba del periférico altavoz...\n\r");
+
+    // 1. Establecer un valor en slv_reg0 para generar un tono
+    // Un valor menor resultará en un toggle más rápido (tono más agudo)
+    // Un valor mayor en slv_reg0 resultará en un toggle más lento (tono más grave)
+    print("Estableciendo tono agudo...\n\r");
+    ALTAVOZ_mWriteReg(ALTAVOZ_BASEADDR, ALTAVOZ_S00_AXI_SLV_REG0_OFFSET, 0x00000100);
+    // Con este valor, el periférico generará un tono relativamente agudo.
+
+    // Esperar unos segundos
+    sleep(2);
+
+    // 2. Cambiar el valor para generar otro tono (más grave)
+    print("Cambiando a tono más grave...\n\r");
+    ALTAVOZ_mWriteReg(ALTAVOZ_BASEADDR, ALTAVOZ_S00_AXI_SLV_REG0_OFFSET, 0x00000A00);
+    sleep(2);
+
+    // 3. Leer el valor de un registro, por ejemplo slv_reg3,
+    // tal vez en este periférico tenga sentido leerlo si hubiera cálculos internos
+    // Aquí es sólo un ejemplo
+    u32 reg3_val = ALTAVOZ_mReadReg(ALTAVOZ_BASEADDR, ALTAVOZ_S00_AXI_SLV_REG3_OFFSET);
+    xil_printf("Valor leido de slv_reg3: 0x%08X\r\n", (unsigned)reg3_val);
+
+    // 4. Apagar o cambiar el tono a silencio (por ejemplo, escribir 0 en slv_reg0)
+    print("Silenciando...\n\r");
+    ALTAVOZ_mWriteReg(ALTAVOZ_BASEADDR, ALTAVOZ_S00_AXI_SLV_REG0_OFFSET, 0x00000000);
+    sleep(1);
+
+    print("Prueba completada.\n\r");
+
+    cleanup_platform();
+    return 0;
+}

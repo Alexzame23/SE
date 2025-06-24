@@ -1,0 +1,1459 @@
+TRACE::2024-12-04.17:39:28::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:28::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:28::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:28::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:28::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:28::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-04.17:39:31::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-12-04.17:39:31::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba"
+		}]
+}
+TRACE::2024-12-04.17:39:31::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-12-04.17:39:31::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-12-04.17:39:31::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba"
+		}]
+}
+TRACE::2024-12-04.17:39:31::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba"
+		}]
+}
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:31::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:31::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:31::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:31::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-12-04.17:39:31::SCWMssOS::No sw design opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:31::SCWMssOS::mss does not exists at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:31::SCWMssOS::Creating sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:31::SCWMssOS::Adding the swdes entry, created swdb C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:31::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:31::SCWMssOS::Writing mss at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:31::SCWMssOS::Completed writing the mss file at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-04.17:39:31::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-12-04.17:39:31::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-12-04.17:39:31::SCWMssOS::Completed writing the mss file at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-04.17:39:31::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-04.17:39:34::SCWMssOS::Writing the mss file completed C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"84f656190aced93d13895528fe5faa85",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-12-04.17:39:34::SCWPlatform::Started generating the artifacts platform practica4_prueba
+TRACE::2024-12-04.17:39:34::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-04.17:39:34::SCWPlatform::Started generating the artifacts for system configuration practica4_prueba
+LOG::2024-12-04.17:39:34::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-04.17:39:34::SCWSystem::Not a boot domain 
+LOG::2024-12-04.17:39:34::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-04.17:39:34::SCWDomain::Generating domain artifcats
+TRACE::2024-12-04.17:39:34::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-04.17:39:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Completed writing the mss file at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-04.17:39:34::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-04.17:39:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-04.17:39:34::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2024-12-04.17:39:34::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-12-04.17:39:34::SCWMssOS::Copying to export directory.
+TRACE::2024-12-04.17:39:34::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-04.17:39:34::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-04.17:39:34::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-12-04.17:39:34::SCWSystem::Completed Processing the sysconfig practica4_prueba
+LOG::2024-12-04.17:39:34::SCWPlatform::Completed generating the artifacts for system configuration practica4_prueba
+TRACE::2024-12-04.17:39:34::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-04.17:39:34::SCWSystem::Writing the bif file for system config practica4_prueba
+TRACE::2024-12-04.17:39:34::SCWSystem::dir created 
+TRACE::2024-12-04.17:39:34::SCWSystem::Writing the bif 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Completed generating the platform
+TRACE::2024-12-04.17:39:34::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"84f656190aced93d13895528fe5faa85",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-04.17:39:34::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"84f656190aced93d13895528fe5faa85",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"84f656190aced93d13895528fe5faa85",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-12-04.17:39:34::SCWPlatform::Started generating the artifacts platform practica4_prueba
+TRACE::2024-12-04.17:39:34::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-04.17:39:34::SCWPlatform::Started generating the artifacts for system configuration practica4_prueba
+LOG::2024-12-04.17:39:34::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-04.17:39:34::SCWDomain::Generating domain artifcats
+TRACE::2024-12-04.17:39:34::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-04.17:39:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Completed writing the mss file at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-04.17:39:34::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-04.17:39:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-04.17:39:34::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-04.17:39:34::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-12-04.17:39:34::SCWMssOS::Copying to export directory.
+TRACE::2024-12-04.17:39:34::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-04.17:39:34::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-04.17:39:34::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-12-04.17:39:34::SCWSystem::Completed Processing the sysconfig practica4_prueba
+LOG::2024-12-04.17:39:34::SCWPlatform::Completed generating the artifacts for system configuration practica4_prueba
+TRACE::2024-12-04.17:39:34::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-04.17:39:34::SCWSystem::Writing the bif file for system config practica4_prueba
+TRACE::2024-12-04.17:39:34::SCWSystem::dir created 
+TRACE::2024-12-04.17:39:34::SCWSystem::Writing the bif 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-04.17:39:34::SCWPlatform::Completed generating the platform
+TRACE::2024-12-04.17:39:34::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-04.17:39:34::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:39:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:39:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:39:34::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:39:34::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:39:34::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"84f656190aced93d13895528fe5faa85",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-04.17:39:34::SCWPlatform::updated the xpfm file.
+LOG::2024-12-04.17:43:03::SCWPlatform::Started generating the artifacts platform practica4_prueba
+TRACE::2024-12-04.17:43:03::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-04.17:43:03::SCWPlatform::Started generating the artifacts for system configuration practica4_prueba
+LOG::2024-12-04.17:43:03::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-04.17:43:03::SCWSystem::Not a boot domain 
+LOG::2024-12-04.17:43:03::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-04.17:43:03::SCWDomain::Generating domain artifcats
+TRACE::2024-12-04.17:43:03::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-04.17:43:03::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-04.17:43:03::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:03::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:03::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:03::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:43:03::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:43:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:43:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:43:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:43:03::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:03::SCWMssOS::Completed writing the mss file at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-04.17:43:03::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:03::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-04.17:43:03::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-04.17:43:03::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-04.17:43:03::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-04.17:43:03::SCWMssOS::System Command Ran  C: & cd  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-04.17:43:03::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.17:43:03::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.17:43:03::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/conversorad_v1_0/src"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::make -C microblaze_0/libsrc/conversorad_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-12-04.17:43:03::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-12-04.17:43:03::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.17:43:03::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.17:43:03::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.17:43:03::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.17:43:03::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/matrizpuntos_v1_0/src"
+
+TRACE::2024-12-04.17:43:03::SCWMssOS::make -C microblaze_0/libsrc/matrizpuntos_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-04.17:43:03::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-12-04.17:43:03::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2024-12-04.17:43:04::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-04.17:43:04::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-12-04.17:43:04::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-04.17:43:05::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-04.17:43:05::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/conversorad_v1_0/src"
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::make -C microblaze_0/libsrc/conversorad_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-04.17:43:05::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-04.17:43:05::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::"Compiling conversorad..."
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/matrizpuntos_v1_0/src"
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::make -C microblaze_0/libsrc/matrizpuntos_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-04.17:43:05::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-12-04.17:43:05::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:05::SCWMssOS::"Compiling matrizpuntos..."
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.17:43:06::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.17:43:06::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/conversorad_v1_0/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/conversorad_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-12-04.17:43:06::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-12-04.17:43:06::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.17:43:06::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.17:43:06::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.17:43:06::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.17:43:06::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/matrizpuntos_v1_0/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/matrizpuntos_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-04.17:43:06::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-12-04.17:43:06::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-04.17:43:06::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-12-04.17:43:06::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-04.17:43:06::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-04.17:43:06::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-04.17:43:06::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-04.17:43:06::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-04.17:43:06::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-04.17:43:06::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-04.17:43:06::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-04.17:43:06::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-12-04.17:43:06::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-12-04.17:43:06::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2024-12-04.17:43:06::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-04.17:43:06::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-12-04.17:43:06::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.17:43:10::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-12-04.17:43:10::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-12-04.17:43:10::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-12-04.17:43:10::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-12-04.17:43:10::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-12-04.17:43:10::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-12-04.17:43:10::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-12-04.17:43:10::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-12-04.17:43:10::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-12-04.17:43:10::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-12-04.17:43:10::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-12-04.17:43:10::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-12-04.17:43:10::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-12-04.17:43:10::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-12-04.17:43:10::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-12-04.17:43:10::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-12-04.17:43:10::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2024-12-04.17:43:10::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2024-12-04.17:43:10::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2024-12-04.17:43:10::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2024-12-04.17:43:10::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2024-12-04.17:43:10::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.
+TRACE::2024-12-04.17:43:10::SCWMssOS::o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuart
+TRACE::2024-12-04.17:43:10::SCWMssOS::lite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-12-04.17:43:10::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-12-04.17:43:11::SCWMssOS::Copying to export directory.
+TRACE::2024-12-04.17:43:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-04.17:43:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-04.17:43:11::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-12-04.17:43:11::SCWSystem::Completed Processing the sysconfig practica4_prueba
+LOG::2024-12-04.17:43:11::SCWPlatform::Completed generating the artifacts for system configuration practica4_prueba
+TRACE::2024-12-04.17:43:11::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-04.17:43:11::SCWSystem::Writing the bif file for system config practica4_prueba
+TRACE::2024-12-04.17:43:11::SCWSystem::dir created 
+TRACE::2024-12-04.17:43:11::SCWSystem::Writing the bif 
+TRACE::2024-12-04.17:43:11::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-04.17:43:11::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-04.17:43:11::SCWPlatform::Completed generating the platform
+TRACE::2024-12-04.17:43:11::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-04.17:43:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-04.17:43:11::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:43:11::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:43:11::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:43:11::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:43:11::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:43:11::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:43:11::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"84f656190aced93d13895528fe5faa85",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-04.17:43:11::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.17:43:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-04.17:43:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.17:43:11::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.17:43:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.17:43:11::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:17::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:17::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:17::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:17::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:17::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:17::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-04.20:00:20::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWReader::Active system found as  practica4_prueba
+TRACE::2024-12-04.20:00:20::SCWReader::Handling sysconfig practica4_prueba
+TRACE::2024-12-04.20:00:20::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:20::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-12-04.20:00:20::SCWMssOS::No sw design opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::mss exists loading the mss file  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::Opened the sw design from mss  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::Adding the swdes entry C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-04.20:00:20::SCWMssOS::updating the scw layer about changes
+TRACE::2024-12-04.20:00:20::SCWMssOS::Opened the sw design.  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-04.20:00:20::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-04.20:00:20::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.20:00:20::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-12-04.20:00:20::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:20::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.20:00:20::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWReader::No isolation master present  
+LOG::2024-12-04.20:00:20::SCWPlatform::Started generating the artifacts platform practica4_prueba
+TRACE::2024-12-04.20:00:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-04.20:00:20::SCWPlatform::Started generating the artifacts for system configuration practica4_prueba
+LOG::2024-12-04.20:00:20::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-04.20:00:20::SCWSystem::Not a boot domain 
+LOG::2024-12-04.20:00:20::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-04.20:00:20::SCWDomain::Generating domain artifcats
+TRACE::2024-12-04.20:00:20::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-04.20:00:20::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:20::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.20:00:20::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::Completed writing the mss file at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-04.20:00:20::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:20::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-04.20:00:20::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-04.20:00:20::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-04.20:00:20::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-04.20:00:20::SCWMssOS::System Command Ran  C: & cd  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-04.20:00:20::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.20:00:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.20:00:21::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/conversorad_v1_0/src"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::make -C microblaze_0/libsrc/conversorad_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-12-04.20:00:21::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-12-04.20:00:21::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.20:00:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.20:00:21::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.20:00:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.20:00:21::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/matrizpuntos_v1_0/src"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::make -C microblaze_0/libsrc/matrizpuntos_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-04.20:00:21::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-12-04.20:00:21::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2024-12-04.20:00:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-04.20:00:21::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-12-04.20:00:21::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2024-12-04.20:00:22::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-04.20:00:22::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-04.20:00:22::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:22::SCWMssOS::"Running Make libs in microblaze_0/libsrc/conversorad_v1_0/src"
+
+TRACE::2024-12-04.20:00:22::SCWMssOS::make -C microblaze_0/libsrc/conversorad_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-04.20:00:22::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-04.20:00:22::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:22::SCWMssOS::"Compiling conversorad..."
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/matrizpuntos_v1_0/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/matrizpuntos_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-04.20:00:23::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2024-12-04.20:00:23::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Compiling matrizpuntos..."
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.20:00:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.20:00:23::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/conversorad_v1_0/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/conversorad_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-12-04.20:00:23::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-12-04.20:00:23::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.20:00:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.20:00:23::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-04.20:00:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-12-04.20:00:23::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/matrizpuntos_v1_0/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/matrizpuntos_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-04.20:00:23::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2024-12-04.20:00:23::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-04.20:00:23::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-12-04.20:00:23::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2024-12-04.20:00:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-12-04.20:00:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-12-04.20:00:23::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-04.20:00:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-04.20:00:24::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-04.20:00:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-04.20:00:24::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-04.20:00:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-12-04.20:00:24::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-12-04.20:00:24::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-12-04.20:00:24::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2024-12-04.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-04.20:00:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-12-04.20:00:24::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-04.20:00:25::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-12-04.20:00:25::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-12-04.20:00:25::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-12-04.20:00:25::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-12-04.20:00:25::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-12-04.20:00:25::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-12-04.20:00:25::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-12-04.20:00:25::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-12-04.20:00:25::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-12-04.20:00:25::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-12-04.20:00:25::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-12-04.20:00:25::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-12-04.20:00:25::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-12-04.20:00:25::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-12-04.20:00:25::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-12-04.20:00:25::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2024-12-04.20:00:25::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2024-12-04.20:00:25::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2024-12-04.20:00:25::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2024-12-04.20:00:25::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2024-12-04.20:00:25::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.
+TRACE::2024-12-04.20:00:25::SCWMssOS::o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuart
+TRACE::2024-12-04.20:00:25::SCWMssOS::lite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-12-04.20:00:25::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-12-04.20:00:25::SCWMssOS::Copying to export directory.
+TRACE::2024-12-04.20:00:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-04.20:00:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-04.20:00:25::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-12-04.20:00:25::SCWSystem::Completed Processing the sysconfig practica4_prueba
+LOG::2024-12-04.20:00:25::SCWPlatform::Completed generating the artifacts for system configuration practica4_prueba
+TRACE::2024-12-04.20:00:25::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-04.20:00:25::SCWSystem::Writing the bif file for system config practica4_prueba
+TRACE::2024-12-04.20:00:25::SCWSystem::dir created 
+TRACE::2024-12-04.20:00:25::SCWSystem::Writing the bif 
+TRACE::2024-12-04.20:00:25::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-04.20:00:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-04.20:00:25::SCWPlatform::Completed generating the platform
+TRACE::2024-12-04.20:00:25::SCWMssOS::Saving the mss changes C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-04.20:00:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-04.20:00:25::SCWMssOS::Commit changes completed.
+TRACE::2024-12-04.20:00:25::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:25::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:25::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:25::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.20:00:25::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:25::SCWWriter::formatted JSON is {
+	"platformName":	"practica4_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"practica4_prueba",
+	"platHandOff":	"C:/Users/azmal/Desktop/USB_Backup/SE/Vivado/practica4/practica4_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/practica4_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"practica4_prueba",
+	"systems":	[{
+			"systemName":	"practica4_prueba",
+			"systemDesc":	"practica4_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"practica4_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"84f656190aced93d13895528fe5faa85",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-04.20:00:25::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-04.20:00:25::SCWPlatform::Trying to open the hw design at C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform::DSA given C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform::DSA absoulate path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform::DSA directory C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw
+TRACE::2024-12-04.20:00:25::SCWPlatform:: Platform Path C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/hw/practica4_prueba.xsa
+TRACE::2024-12-04.20:00:25::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-12-04.20:00:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2024-12-04.20:00:25::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2024-12-04.20:00:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-04.20:00:25::SCWMssOS::Checking the sw design at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-04.20:00:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-04.20:00:25::SCWMssOS::Sw design exists and opened at  C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_cuatroprueba/practica4_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss

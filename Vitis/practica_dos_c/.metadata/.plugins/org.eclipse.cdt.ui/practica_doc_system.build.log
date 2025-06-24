@@ -1,0 +1,6 @@
+16:06:14 **** Incremental Build of configuration Debug for project practica_doc_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+16:06:14 Build Finished (took 238ms)
+

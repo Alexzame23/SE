@@ -1,0 +1,6 @@
+17:37:51 **** Incremental Build of configuration Debug for project pcinco_aimage_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+17:37:51 Build Finished (took 215ms)
+

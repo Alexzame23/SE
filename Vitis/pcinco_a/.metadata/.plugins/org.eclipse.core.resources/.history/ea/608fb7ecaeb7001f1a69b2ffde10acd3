@@ -1,0 +1,106 @@
+#include <stdio.h>
+#include <xil_printf.h>
+#include "xil_io.h"
+
+#define PUT_FIFO(val) putfsl(val, 0)  // Escribir en el AXI-Stream
+
+u32 valorR(){
+	char valor;
+	while(1){
+		valor = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+
+		switch (valor) {
+		case '0':
+			return 0;
+			break;
+		case '1':
+			return 1;
+			break;
+		case '2':
+			return 2;
+			break;
+		case '3':
+			return 3;
+			break;
+		case '4':
+			return 4;
+			break;
+		case '5':
+			return 5;
+			break;
+		case '6':
+			return 6;
+			break;
+		case '7':
+			return 7;
+			break;
+		case '8':
+			return 8;
+			break;
+		case '9':
+			return 9;
+			break;
+		case 'a':
+			return 10;
+			break;
+		case 'b':
+			return 11;
+			break;
+		case 'c':
+			return 12;
+			break;
+		case 'd':
+			return 13;
+			break;
+		case 'e':
+			return 14;
+			break;
+		case 'f':
+			return 15;
+			break;
+		default:
+			xil_printf("Opcion no valida. Por favor, selecciona entre 0 y 15.\n\r");
+			break;
+		}
+
+	}
+}
+
+int main() {
+	u32 valor, fila, columna, color;
+
+	xil_printf("Controlador de VGA - Modificar Rectángulos\n\r");
+
+	while (1) {
+		xil_printf("Introduce la fila (0-15): \n\r");
+		fila = valorR();
+		xil_printf("Introduce de la columna (0-15): \n\r");
+		columna = valorR();
+		xil_printf("Valor de la fila %d y la columna %d: \n\r", fila, columna);
+		xil_printf("Introduce el color (0x000-0xFFF): ");
+		color = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+		if (color < 0x000 || color > 0xFFF) {
+			xil_printf("Color inválido. Debe estar entre 0x000 y 0xFFF.\n\r");
+			continue;
+		}
+
+		// Codificar el valor
+		valor = (columna << 16) | (fila << 12) | color;
+
+		// Enviar al periférico VGA
+		PUT_FIFO(valor);
+
+		xil_printf("Rectángulo modificado: Fila=%d, Columna=%d, Color=0x%03X\n\r", fila, columna, color);
+
+		// Opción para salir
+		char opcion;
+		xil_printf("¿Deseas modificar otro rectángulo? (s/n): ");
+		opcion = XUartLite_RecvByte(XPAR_AXI_UARTLITE_0_BASEADDR);
+		if (opcion == 'n' || opcion == 'N') {
+			xil_printf("Saliendo del programa.\n\r");
+			break;
+		}
+	}
+
+	return 0;
+}

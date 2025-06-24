@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "conversorad.h"
+#include "matrizpuntos.h"
+#include "sleep.h"
+
+#define MATRIZ_BASEADDR XPAR_MATRIZPUNTOS_0_S00_AXI_BASEADDR
+
+// Define los patrones de los caracteres
+const u8 CHARACTERS[7][8] = {
+    {0x38, 0x10, 0x10, 0x10, 0x10, 0x10, 0x38, 0x00}, // I
+    {0x66, 0xFF, 0xFF, 0x7E, 0x3C, 0x18, 0x00, 0x00}, // ❤
+    {0x38, 0x44, 0x80, 0x80, 0x80, 0x44, 0x38, 0x00}, // C
+    {0x38, 0x44, 0x82, 0x82, 0x82, 0x44, 0x38, 0x00}, // O
+    {0xF8, 0x84, 0x84, 0xF8, 0x80, 0x80, 0x80, 0x00}, // P
+    {0xF8, 0x84, 0x84, 0xF8, 0xA0, 0x90, 0x8C, 0x00}, // R
+    {0x38, 0x44, 0x82, 0x82, 0x82, 0x44, 0x38, 0x00}  // O
+};
+
+// Función para escribir un punto específico en la matriz
+void write_to_matrix(u32 fila, u32 columna, u32 dato) {
+    u32 reg_value = 0;
+    reg_value |= (fila & 0x7) << 24;    // Fila (3 bits)
+    reg_value |= (columna & 0x7) << 17; // Columna (3 bits)
+    reg_value |= (dato & 0x1F) << 8;    // Dato (5 bits)
+
+    MATRIZPUNTOS_mWriteReg(MATRIZ_BASEADDR, MATRIZPUNTOS_S00_AXI_SLV_REG0_OFFSET, reg_value);
+
+    reg_value |= (1 << 0); // Activar señal de carga
+    MATRIZPUNTOS_mWriteReg(MATRIZ_BASEADDR, MATRIZPUNTOS_S00_AXI_SLV_REG0_OFFSET, reg_value);
+
+    usleep(100);
+}
+
+// Función para mostrar un carácter en una posición específica
+void display_character(const u8 *character, u32 start_col) {
+    for (u32 fila = 0; fila < 8; fila++) {
+        for (u32 columna = 0; columna < 8; columna++) {
+            u32 dato = (character[fila] >> (7 - columna)) & 0x01; // Extraer bit
+            write_to_matrix(fila, start_col + columna, dato);
+        }
+    }
+}
+
+int main() {
+    // Escribir los patrones de cada carácter en la RAM
+    for (u32 char_idx = 0; char_idx < 7; char_idx++) {
+        write_character_to_ram(char_idx, CHARACTERS[char_idx]);
+    }
+
+    // Bucle principal
+    while (1) {
+        // El módulo VHDL maneja la visualización continua del mensaje
+        usleep(1000000); // Esperar 1 segundo
+    }
+
+    return 0;
+}
+

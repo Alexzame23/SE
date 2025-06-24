@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="practicacinco_a_system-bitFile" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\practica_cinco_a\p5a2\hw\p5a2.bit"/>
+	<item key="practicacinco_a_system-bmmFile" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\practica_cinco_a\p5a2\hw\p5a2.mmi"/>
+	<item key="practicacinco_a_system-target" value="Local"/>
+	<item key="practicacinco_a_system-device" value="Auto Detect"/>
+	<item key="practicacinco_a_system-partial_bit" value="false"/>
+	<item key="practicacinco_a_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="practicacinco_a_system"/>
+	<item key="practicacinco_a_system-microblaze_0-initElf" value="C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\practica_cinco_a\practicacinco_a\Debug\practicacinco_a.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183B31CDAA&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183B31CDAA-0362d093-0&quot;}}]}"/>
+</section>

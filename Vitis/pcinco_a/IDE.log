@@ -1,0 +1,127 @@
+15:55:08 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/IDE.log'.
+15:55:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcinco_a\temp_xsdb_launch_script.tcl
+15:55:18 INFO  : Platform repository initialization has completed.
+15:55:18 INFO  : Registering command handlers for Vitis TCF services
+15:55:21 INFO  : XSCT server has started successfully.
+15:55:21 INFO  : Successfully done setting XSCT server connection channel  
+15:55:21 INFO  : plnx-install-location is set to ''
+15:55:22 INFO  : Successfully done setting workspace for the tool. 
+15:55:22 INFO  : Successfully done query RDI_DATADIR 
+15:55:56 INFO  : Result from executing command 'getProjects': p5image
+15:55:56 INFO  : Result from executing command 'getPlatforms': 
+15:55:56 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:55:57 INFO  : Platform 'p5image' is added to custom repositories.
+15:56:00 INFO  : Platform 'p5image' is added to custom repositories.
+15:56:59 INFO  : Result from executing command 'getProjects': p5image
+15:56:59 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+15:56:59 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+15:57:27 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+16:02:57 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+16:04:47 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+16:05:54 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+16:05:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:05:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:05:56 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+11:26:39 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/IDE.log'.
+11:26:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\pcinco_a\temp_xsdb_launch_script.tcl
+11:26:44 INFO  : XSCT server has started successfully.
+11:26:44 INFO  : plnx-install-location is set to ''
+11:26:44 INFO  : Successfully done setting XSCT server connection channel  
+11:26:44 INFO  : Successfully done setting workspace for the tool. 
+11:26:47 INFO  : Platform repository initialization has completed.
+11:26:54 INFO  : Registering command handlers for Vitis TCF services
+11:26:54 INFO  : Successfully done query RDI_DATADIR 
+11:27:46 INFO  : Result from executing command 'getProjects': p5image
+11:27:46 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+11:27:47 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:32:08 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:32:19 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:33:30 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+11:33:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+11:33:32 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+11:35:19 INFO  : Result from executing command 'getProjects': p5image
+11:35:19 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+11:35:19 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:35:48 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+11:35:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:35:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+11:35:50 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+11:37:52 INFO  : Result from executing command 'getProjects': p5image
+11:37:52 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+11:37:53 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:38:23 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+11:38:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:38:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+11:38:25 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+11:41:00 INFO  : Result from executing command 'getProjects': p5image
+11:41:00 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+11:41:00 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:41:16 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:41:27 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:42:03 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+11:42:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+11:42:04 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+11:48:08 INFO  : Result from executing command 'getProjects': p5image
+11:48:08 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+11:48:09 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:48:43 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:49:10 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:49:36 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+11:49:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:49:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+11:49:37 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+11:53:31 INFO  : Result from executing command 'getProjects': p5image
+11:53:31 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+11:53:32 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:53:57 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+11:53:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:53:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+11:53:58 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+11:55:11 INFO  : Result from executing command 'getProjects': p5image
+11:55:11 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+11:55:11 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+11:55:38 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+11:55:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:55:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+11:55:39 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+12:00:21 INFO  : Result from executing command 'getProjects': p5image
+12:00:21 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+12:00:21 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+12:00:35 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+12:01:04 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+12:01:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:01:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+12:01:06 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+17:25:15 INFO  : Result from executing command 'getProjects': p5image
+17:25:15 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+17:25:16 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+17:26:05 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+17:26:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:26:07 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+17:30:59 INFO  : Result from executing command 'getProjects': p5image
+17:30:59 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+17:31:00 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+17:31:39 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+17:31:49 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+17:32:05 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+17:32:41 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+17:32:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:32:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:32:43 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+17:34:57 INFO  : Result from executing command 'getProjects': p5image
+17:34:57 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+17:34:57 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+17:35:30 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+17:35:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:35:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:35:32 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"
+17:37:49 INFO  : Result from executing command 'getProjects': p5image
+17:37:49 INFO  : Result from executing command 'getPlatforms': p5image|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/export/p5image/p5image.xpfm
+17:37:50 INFO  : Checking for BSP changes to sync application flags for project 'pcinco_aimage'...
+17:38:23 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit' is generated.
+17:38:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:38:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:38:25 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/pcinco_a/p5image/hw/download.bit"

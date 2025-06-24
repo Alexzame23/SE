@@ -1,0 +1,8 @@
+Nothing to build in platform 'p4final2'
+
+17:14:38 **** Incremental Build of configuration Debug for project pcuatro_dos ****
+make all 
+make: Nothing to be done for 'all'.
+17:14:39 **** Incremental Build of configuration Debug for project pcuatro_dos_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -1,0 +1,40 @@
+Nothing to build in platform 'practica3final'
+
+17:04:41 **** Incremental Build of configuration Debug for project practica_tres_final ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -IC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica3final/export/practica3final/sw/practica3final/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+../src/testperiph.c: In function 'aleatorio':
+../src/testperiph.c:36:17: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   36 |                 usleep(200000); // 50 ms
+      |                 ^~~~~~
+../src/testperiph.c: In function 'main':
+../src/testperiph.c:182:9: warning: "/*" within comment [-Wcomment]
+  182 |         /*print(" ---Test para el keypad ---\n\r");
+      |          
+../src/testperiph.c:187:31: warning: "/*" within comment [-Wcomment]
+  187 |         TeclaOld = DataRead ; /* Se escribe un 0 para borrar la �ltima tecla le�da
+      |                                
+../src/testperiph.c:194:78: warning: "/*" within comment [-Wcomment]
+  194 |                 TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0); /* Se escribe un 0 para borrar la �ltima tecla le�da
+      |                                                                               
+../src/testperiph.c:215:17: warning: "/*" within comment [-Wcomment]
+  215 |                 /*RGB_LEDS_mReadReg(i, i);
+      |                  
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practica_tres_final.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica3final/export/practica3final/sw/practica3final/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practica_tres_final.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practica_tres_final.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practica_tres_final.elf  |tee "practica_tres_final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8012	    272	   3108	  11392	   2c80	practica_tres_final.elf
+'Finished building: practica_tres_final.elf.size'
+' '
+17:04:43 **** Incremental Build of configuration Debug for project practica_tres_final_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -1,0 +1,12 @@
+timestamp=[2024-11-14 11:50:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.006, duration_ms=6, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-14 11:50:49], mode=WORKBENCH_START, duration=0:00:10.127, duration_ms=10127, data={}
+timestamp=[2024-11-14 11:50:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.237, duration_ms=237, data={}
+timestamp=[2024-11-14 11:54:54], mode=APP_CREATION, duration=0:00:32.345, duration_ms=32345, data={name=practica_doc, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=practica_dosc, application_type=application}
+timestamp=[2024-11-14 11:58:03], mode=PLATFORM_GENERATION, duration=0:00:22.207, duration_ms=22207, data={name=practica_dosc}
+timestamp=[2024-11-14 11:58:05], mode=BUILD, duration=0:00:01.425, duration_ms=1425, data={name=practica_doc, configuration=Debug, clean_build=false}
+timestamp=[2024-11-14 11:58:06], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=practica_doc_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-14 16:05:36], mode=WORKBENCH_START, duration=0:00:12.924, duration_ms=12924, data={}
+timestamp=[2024-11-14 16:05:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.199, duration_ms=199, data={}
+timestamp=[2024-11-14 16:05:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.446, duration_ms=446, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,practica_doc,practica_doc_system,practica_dosc}
+timestamp=[2024-11-14 16:06:13], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=practica_doc, configuration=Debug, clean_build=false}
+timestamp=[2024-11-14 16:06:14], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=practica_doc_system, configuration=Debug, clean_build=false}

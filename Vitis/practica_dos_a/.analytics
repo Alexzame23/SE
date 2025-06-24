@@ -1,0 +1,23 @@
+timestamp=[2024-11-07 12:41:52], mode=WORKBENCH_START, duration=0:00:11.166, duration_ms=11166, data={}
+timestamp=[2024-11-07 12:41:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.007, duration_ms=7, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-07 12:41:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.171, duration_ms=171, data={}
+timestamp=[2024-11-07 12:43:36], mode=APP_CREATION, duration=0:00:32.435, duration_ms=32435, data={name=practica_dos_a, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=p2a_wrapper, application_type=application}
+timestamp=[2024-11-07 12:50:01], mode=PLATFORM_GENERATION, duration=0:00:22.975, duration_ms=22975, data={name=p2a_wrapper}
+timestamp=[2024-11-07 12:50:02], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=practica_dos_a, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 12:52:42], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=practica_dos_a, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 12:53:28], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=practica_dos_a, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 12:54:24], mode=BUILD, duration=0:00:01.552, duration_ms=1552, data={name=practica_dos_a, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 12:54:24], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=practica_dos_a_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 14:17:41], mode=WORKBENCH_START, duration=0:00:07.150, duration_ms=7150, data={}
+timestamp=[2024-11-07 14:17:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.747, duration_ms=747, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,p2a_wrapper,practica_dos_a,practica_dos_a_system}
+timestamp=[2024-11-07 14:18:59], mode=WORKBENCH_START, duration=0:00:08.144, duration_ms=8144, data={}
+timestamp=[2024-11-07 14:19:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.154, duration_ms=154, data={}
+timestamp=[2024-11-07 14:19:00], mode=WORKBENCH_UI_INIT, duration=0:00:01.710, duration_ms=1710, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,p2a_wrapper,practica_dos_a,practica_dos_a_system}
+timestamp=[2024-11-07 13:51:53], mode=WORKBENCH_START, duration=0:00:13.216, duration_ms=13216, data={}
+timestamp=[2024-11-07 13:51:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.569, duration_ms=569, data={editors_count=10, platform_editors_count=6, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,p2a_wrapper,practica_dos_a,practica_dos_a_system}
+timestamp=[2024-11-07 13:51:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.298, duration_ms=2298, data={}
+timestamp=[2024-11-07 13:53:04], mode=PLATFORM_GENERATION, duration=0:00:28.846, duration_ms=28846, data={name=p2a_wrapper}
+timestamp=[2024-11-07 13:53:07], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=practica_dos_a, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 13:53:08], mode=BUILD, duration=0:00:00.417, duration_ms=417, data={name=practica_dos_a_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 13:54:38], mode=BUILD, duration=0:00:02.237, duration_ms=2237, data={name=practica_dos_a, configuration=Debug, clean_build=false}
+timestamp=[2024-11-07 13:54:39], mode=BUILD, duration=0:00:00.335, duration_ms=335, data={name=practica_dos_a_system, configuration=Debug, clean_build=false}

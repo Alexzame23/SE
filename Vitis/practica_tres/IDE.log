@@ -1,0 +1,117 @@
+16:13:04 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB Back up/SE/Vitis/practica_tres/IDE.log'.
+16:13:09 ERROR : Workspace location C:\Users\azmal\Desktop\USB Back up\SE\Vitis\practica_tres contains spaces. Please switch to a workspace without spaces in its path.
+16:13:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB Back up\SE\Vitis\practica_tres\temp_xsdb_launch_script.tcl
+16:13:10 INFO  : Registering command handlers for Vitis TCF services
+16:13:10 INFO  : Platform repository initialization has completed.
+16:13:15 ERROR : (XSDB Server)couldn't read file "C:\Users\azmal\Desktop\USB": permission denied
+
+16:14:00 DEBUG : Logs will be stored at 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/IDE.log'.
+16:14:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\azmal\Desktop\USB_Backup\SE\Vitis\practica_tres\temp_xsdb_launch_script.tcl
+16:14:05 INFO  : Registering command handlers for Vitis TCF services
+16:14:05 INFO  : Platform repository initialization has completed.
+16:14:08 INFO  : XSCT server has started successfully.
+16:14:08 INFO  : plnx-install-location is set to ''
+16:14:14 INFO  : Successfully done setting XSCT server connection channel  
+16:14:14 INFO  : Successfully done query RDI_DATADIR 
+16:14:14 INFO  : Successfully done setting workspace for the tool. 
+16:15:00 INFO  : Result from executing command 'getProjects': practica3final
+16:15:00 INFO  : Result from executing command 'getPlatforms': 
+16:15:00 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:15:01 INFO  : Platform 'practica3final' is added to custom repositories.
+16:15:06 INFO  : Platform 'practica3final' is added to custom repositories.
+16:19:20 INFO  : Result from executing command 'getProjects': practica3final
+16:19:20 INFO  : Result from executing command 'getPlatforms': practica3final|C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica3final/export/practica3final/practica3final.xpfm
+16:19:20 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:20:21 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:20:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:20:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:20:25 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:25:53 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:26:51 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:27:07 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:27:15 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:27:54 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:28:26 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:28:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:28:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:28:27 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:36:58 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:37:35 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:38:01 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:38:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:38:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:38:02 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:40:17 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:40:52 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:40:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:40:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:40:53 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:43:00 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:43:26 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:43:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:43:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:43:27 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:44:28 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:44:54 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:44:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:44:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:44:56 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:45:45 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:46:09 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:46:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:46:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:46:10 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:47:06 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:47:37 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:47:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:47:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:47:39 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:48:14 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:48:43 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:48:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:48:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:48:45 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:50:10 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:50:19 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:50:44 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:50:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:50:45 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:56:13 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:56:38 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:56:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:56:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:56:39 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+16:58:44 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+16:59:09 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+16:59:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:59:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:59:11 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+17:00:02 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+17:00:41 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+17:01:00 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+17:01:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:01:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+17:01:01 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+17:01:32 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+17:01:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:01:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+17:01:33 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+17:02:23 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+17:02:49 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+17:02:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:02:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+17:02:50 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+17:04:41 INFO  : Checking for BSP changes to sync application flags for project 'practica_tres_final'...
+17:05:06 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+17:05:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:05:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+17:05:07 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+17:45:41 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+17:45:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:45:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+17:45:42 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"
+17:46:21 INFO  : Bit file 'C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit' is generated.
+17:46:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:46:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+17:46:22 INFO  : Device configured successfully with "C:/Users/azmal/Desktop/USB_Backup/SE/Vitis/practica_tres/practica_tres_final/_ide/bitstream/download.bit"

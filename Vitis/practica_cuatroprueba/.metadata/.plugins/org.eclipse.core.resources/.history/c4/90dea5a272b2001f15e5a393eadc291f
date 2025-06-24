@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "conversorad.h"
+#include "matrizpuntos.h"
+#include "sleep.h"
+
+#define MATRIZ_BASEADDR XPAR_MATRIZPUNTOS_0_S00_AXI_BASEADDR
+
+void write_to_matrix(u32 fila, u32 columna, u32 dato);
+
+int main() {
+    // Inicializa la matriz con un patrón diagonal
+    for (u32 fila = 0; fila < 8; fila++) { // 8 filas
+        for (u32 columna = 0; columna < 8; columna++) { // 8 columnas
+            if (fila == columna) {
+                write_to_matrix(fila, columna, 0x1F); // Encender en la diagonal
+            } else {
+                write_to_matrix(fila, columna, 0x00); // Apagar fuera de la diagonal
+            }
+        }
+    }
+
+    // Bucle infinito
+    while (1) {
+        // Podrías añadir lógica para animar la matriz aquí.
+    }
+
+    return 0;
+}
+
+void write_to_matrix(u32 fila, u32 columna, u32 dato) {
+    u32 reg_value = 0;
+    reg_value |= (fila & 0x7) << 24;    // Fila (3 bits)
+    reg_value |= (columna & 0x7) << 17; // Columna (3 bits)
+    reg_value |= (dato & 0x1F) << 8;    // Dato (5 bits)
+
+    MATRIZPUNTOS_mWriteReg(MATRIZ_BASEADDR, MATRIZPUNTOS_S00_AXI_SLV_REG0_OFFSET, reg_value);
+
+    reg_value |= (1 << 0); // Activar señal de carga
+    MATRIZPUNTOS_mWriteReg(MATRIZ_BASEADDR, MATRIZPUNTOS_S00_AXI_SLV_REG0_OFFSET, reg_value);
+
+    usleep(100);
+}
