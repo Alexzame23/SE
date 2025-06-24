@@ -1,0 +1,33 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_microblaze_0_0/sim/design_1_microblaze_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_dlmb_v10_0/sim/design_1_dlmb_v10_0.vhd" \
+"../../../bd/design_1/ip/design_1_ilmb_v10_0/sim/design_1_ilmb_v10_0.vhd" \
+"../../../bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/sim/design_1_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/sim/design_1_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_mdm_1_0/sim/design_1_mdm_1_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/sim/design_1_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_uartlite_0_0/sim/design_1_axi_uartlite_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+"../../../bd/design_1/ipshared/6f7f/hdl/motor_v2_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/6f7f/src/100_k_counter.vhd" \
+"../../../bd/design_1/ipshared/6f7f/src/motorstep.vhd" \
+"../../../bd/design_1/ipshared/6f7f/hdl/motor_v2_0.vhd" \
+"../../../bd/design_1/ip/design_1_motor_0_0/sim/design_1_motor_0_0.vhd" \
+"../../../bd/design_1/ipshared/8bd1/hdl/matrizpuntos_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/8bd1/src/bannerDesp.vhd" \
+"../../../bd/design_1/ipshared/8bd1/hdl/matrizpuntos_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_matrizpuntos_0_0/sim/design_1_matrizpuntos_0_0.vhd" \
+"../../../bd/design_1/ipshared/64b8/hdl/rgb_leds_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/64b8/hdl/rgb_leds_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_rgb_leds_0_0/sim/design_1_rgb_leds_0_0.vhd" \
+"../../../bd/design_1/ipshared/3518/hdl/teclado_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/3518/src/teclaDetect.vhd" \
+"../../../bd/design_1/ipshared/3518/hdl/teclado_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_teclado_0_0/sim/design_1_teclado_0_0.vhd" \
+"../../../bd/design_1/ipshared/3c21/hdl/altavoz_v2_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/3c21/hdl/altavoz_v2_0.vhd" \
+"../../../bd/design_1/ip/design_1_altavoz_0_0/sim/design_1_altavoz_0_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+# Do not sort compile order
+nosort

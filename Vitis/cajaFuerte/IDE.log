@@ -1,0 +1,14 @@
+18:19:32 DEBUG : Logs will be stored at 'F:/SE/Vitis/cajaFuerte/IDE.log'.
+18:19:49 INFO  : Registering command handlers for Vitis TCF services
+18:19:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\SE\Vitis\cajaFuerte\temp_xsdb_launch_script.tcl
+18:19:50 INFO  : Platform repository initialization has completed.
+18:19:54 INFO  : XSCT server has started successfully.
+18:19:56 INFO  : plnx-install-location is set to ''
+18:19:56 INFO  : Successfully done setting XSCT server connection channel  
+18:19:56 INFO  : Successfully done query RDI_DATADIR 
+18:19:56 INFO  : Successfully done setting workspace for the tool. 
+18:20:52 INFO  : Result from executing command 'getProjects': caja_fuerte
+18:20:52 INFO  : Result from executing command 'getPlatforms': 
+18:20:54 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:20:56 INFO  : Platform 'caja_fuerte' is added to custom repositories.
+18:21:02 INFO  : Platform 'caja_fuerte' is added to custom repositories.
