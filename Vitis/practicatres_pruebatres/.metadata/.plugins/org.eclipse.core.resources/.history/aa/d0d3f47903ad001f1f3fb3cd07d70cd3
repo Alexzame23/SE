@@ -1,0 +1,86 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "teclado.h"
+#include "rgb_leds.h"
+int main () 
+{
+
+	u32 red_intensity = 0;
+	u32 green_intensity = 0;
+	u32 blue_intensity = 0;
+
+	while (1) {
+		// Incrementa los valores para un efecto de transición
+		red_intensity = (red_intensity + 1) % 256;   // Valores de 0 a 255
+		green_intensity = (green_intensity + 1) % 256;
+		blue_intensity = (blue_intensity + 1) % 256;
+
+		// Escribe los nuevos valores en los registros
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, red_intensity);
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, green_intensity);
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, blue_intensity);
+
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_1_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, red_intensity);
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_1_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, green_intensity);
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_1_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, blue_intensity);
+
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_2_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, red_intensity);
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_2_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, green_intensity);
+		RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_2_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, blue_intensity);
+		// Espera un poco antes de actualizar los valores
+		usleep(50000); // 50 ms
+	}
+	/*Xil_ICacheEnable();
+	Xil_DCacheEnable();
+	print("---Entering main---\n\r");
+
+	u32 TeclaOld;
+	u32 DataRead;
+
+	/*print(" ---Test para el keypad ---\n\r");
+	xil_printf(" Pulse una tecla cualquiera \n\r");
+	DataRead = TECLADO_mReadReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0);
+	xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , DataRead );
+	TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0);
+	TeclaOld = DataRead ; /* Se escribe un 0 para borrar la �ltima tecla le�da
+	while (1) {
+		if ( DataRead != TeclaOld ) {
+			xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , DataRead );
+			TeclaOld = DataRead ;
+		}
+		DataRead = TECLADO_mReadReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0);
+		TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0); /* Se escribe un 0 para borrar la �ltima tecla le�da
+		RGB_LEDS_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,DataRead);
+		RGB_LEDS_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 1 ,DataRead);
+		RGB_LEDS_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 2 ,DataRead);
+		for(int j = 0; j < 10000000; j++);
+	}	*/
+
+
+	/*for(int j = 0; j < 65535; j++){
+		xil_printf (" Se ha leido %d \n\r" , j );
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_0_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG0_OFFSET ,j);
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_0_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG1_OFFSET ,0);
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_0_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG2_OFFSET ,0);
+
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_1_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG0_OFFSET ,0);
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_1_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG1_OFFSET ,j);
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_1_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG2_OFFSET ,0);
+
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_2_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG0_OFFSET ,0);
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_2_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG1_OFFSET ,0);
+		RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_2_S00_AXI_BASEADDR , RGB_LEDS_S00_AXI_SLV_REG2_OFFSET ,j);
+		/*RGB_LEDS_mReadReg(i, i);
+			RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_1_S00_AXI_BASEADDR , i ,j);
+			RGB_LEDS_mReadReg(XPAR_RGB_LEDS_1_S00_AXI_BASEADDR, i);
+			RGB_LEDS_mWriteReg ( XPAR_RGB_LEDS_2_S00_AXI_BASEADDR , i ,j);
+			RGB_LEDS_mReadReg(XPAR_RGB_LEDS_2_S00_AXI_BASEADDR, i);*/
+	/*	for(int h = 0; h < 1000000; h++);
+	}*/
+
+
+	return 0;
+}

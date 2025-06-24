@@ -1,0 +1,6 @@
+17:23:35 **** Incremental Build of configuration Debug for project practicadoscpuede_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+17:23:35 Build Finished (took 134ms)
+

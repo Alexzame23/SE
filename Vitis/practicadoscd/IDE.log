@@ -1,0 +1,26 @@
+17:12:56 DEBUG : Logs will be stored at 'D:/SE/Vitis/practicadoscd/IDE.log'.
+17:13:01 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practicadoscd\temp_xsdb_launch_script.tcl
+17:13:01 INFO  : Platform repository initialization has completed.
+17:13:02 INFO  : Registering command handlers for Vitis TCF services
+17:13:04 INFO  : XSCT server has started successfully.
+17:13:05 INFO  : plnx-install-location is set to ''
+17:13:05 INFO  : Successfully done setting XSCT server connection channel  
+17:13:05 INFO  : Successfully done query RDI_DATADIR 
+17:13:05 INFO  : Successfully done setting workspace for the tool. 
+17:14:00 INFO  : Result from executing command 'getProjects': puedeser
+17:14:00 INFO  : Result from executing command 'getPlatforms': 
+17:14:01 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:14:04 INFO  : Platform 'puedeser' is added to custom repositories.
+17:14:13 INFO  : Platform 'puedeser' is added to custom repositories.
+17:15:56 INFO  : Result from executing command 'getProjects': puedeser
+17:15:56 INFO  : Result from executing command 'getPlatforms': puedeser|D:/SE/Vitis/practicadoscd/puedeser/export/puedeser/puedeser.xpfm
+17:15:56 INFO  : Checking for BSP changes to sync application flags for project 'practicadoscpuede'...
+17:16:53 INFO  : Bit file 'D:/SE/Vitis/practicadoscd/practicadoscpuede/_ide/bitstream/download.bit' is generated.
+17:16:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:16:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E94A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3E94A-0362d093-0"}' command is executed.
+17:16:58 INFO  : Device configured successfully with "D:/SE/Vitis/practicadoscd/practicadoscpuede/_ide/bitstream/download.bit"
+17:23:34 INFO  : Checking for BSP changes to sync application flags for project 'practicadoscpuede'...
+17:24:08 INFO  : Bit file 'D:/SE/Vitis/practicadoscd/practicadoscpuede/_ide/bitstream/download.bit' is generated.
+17:24:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E94A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3E94A-0362d093-0"}' command is executed.
+17:24:10 INFO  : Device configured successfully with "D:/SE/Vitis/practicadoscd/practicadoscpuede/_ide/bitstream/download.bit"

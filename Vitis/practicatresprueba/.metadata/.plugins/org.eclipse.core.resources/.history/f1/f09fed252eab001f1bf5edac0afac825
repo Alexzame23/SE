@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "teclado.h"
+int main () 
+{
+	Xil_ICacheEnable();
+	Xil_DCacheEnable();
+	print("---Entering main---\n\r");
+
+
+	{
+		u32 status;
+		u32 DataRead;
+
+		print(" ---Test para el keypad ---\n\r");
+		baseaddr = XPAR_TECLADO_0_S00_AXI_BASEADDR ;
+		xil_printf(" Pulse una tecla cualquiera \n\r");
+		DataRead = TECLADO_mReadReg ( baseaddr , 0);
+		xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , DataRead );
+		TECLADO_mWriteReg ( baseaddr , 0 ,0);
+		TeclaOld = Reg32Value ; /* Se escribe un 0 para borrar la última tecla leída */
+		while (1) {
+			if ( DataRead != TeclaOld ) {
+				xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , DataRead );
+				TeclaOld = Reg32Value ;
+			}
+			Reg32Value = TECLADO_mReadReg ( baseaddr , 0);
+			TECLADO_mWriteReg ( baseaddr , 0 ,0); /* Se escribe un 0 para borrar la última tecla leída */
+			return 0;
+		}

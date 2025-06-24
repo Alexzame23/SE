@@ -1,0 +1,21 @@
+14:10:26 **** Incremental Build of configuration Debug for project practicatres_prueba ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -ID:/SE/Vitis/practicatresprueba/prueba1p3/export/prueba1p3/sw/prueba1p3/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practicatres_prueba.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/SE/Vitis/practicatresprueba/prueba1p3/export/prueba1p3/sw/prueba1p3/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practicatres_prueba.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practicatres_prueba.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practicatres_prueba.elf  |tee "practicatres_prueba.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5992	    268	   3108	   9368	   2498	practicatres_prueba.elf
+'Finished building: practicatres_prueba.elf.size'
+' '
+
+14:10:28 Build Finished (took 1s.689ms)
+

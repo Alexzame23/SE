@@ -1,0 +1,103 @@
+16:52:00 DEBUG : Logs will be stored at 'D:/SE/Vitis/practicatres_pruebatres/IDE.log'.
+16:52:05 INFO  : Registering command handlers for Vitis TCF services
+16:52:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practicatres_pruebatres\temp_xsdb_launch_script.tcl
+16:52:05 INFO  : Platform repository initialization has completed.
+16:52:10 INFO  : XSCT server has started successfully.
+16:52:13 INFO  : Successfully done setting XSCT server connection channel  
+16:52:14 INFO  : plnx-install-location is set to ''
+16:52:14 INFO  : Successfully done query RDI_DATADIR 
+16:52:14 INFO  : Successfully done setting workspace for the tool. 
+16:53:08 INFO  : Result from executing command 'getProjects': practica_tres_prueba_tres
+16:53:08 INFO  : Result from executing command 'getPlatforms': 
+16:53:09 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:53:11 INFO  : Platform 'practica_tres_prueba_tres' is added to custom repositories.
+16:53:19 INFO  : Platform 'practica_tres_prueba_tres' is added to custom repositories.
+16:56:25 INFO  : Result from executing command 'getProjects': practica_tres_prueba_tres
+16:56:25 INFO  : Result from executing command 'getPlatforms': practica_tres_prueba_tres|D:/SE/Vitis/practicatres_pruebatres/practica_tres_prueba_tres/export/practica_tres_prueba_tres/practica_tres_prueba_tres.xpfm
+16:56:26 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+16:56:59 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+16:57:38 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+16:57:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+16:57:40 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+20:40:25 DEBUG : Logs will be stored at 'D:/SE/Vitis/practicatres_pruebatres/IDE.log'.
+20:40:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practicatres_pruebatres\temp_xsdb_launch_script.tcl
+20:40:30 INFO  : XSCT server has started successfully.
+20:40:31 INFO  : plnx-install-location is set to ''
+20:40:31 INFO  : Successfully done setting XSCT server connection channel  
+20:40:31 INFO  : Successfully done setting workspace for the tool. 
+20:40:32 INFO  : Platform repository initialization has completed.
+20:40:32 INFO  : Registering command handlers for Vitis TCF services
+20:40:32 INFO  : Successfully done query RDI_DATADIR 
+20:47:38 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+20:48:15 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+20:48:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:48:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+20:48:19 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+20:51:29 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+20:52:04 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+20:52:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:52:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+20:52:06 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+21:02:14 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:02:45 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+21:02:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:02:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+21:02:47 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+21:07:05 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:07:26 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:07:57 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+21:07:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:07:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+21:07:59 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+21:09:57 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:10:31 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+21:10:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:10:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+21:10:32 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+21:30:36 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:31:03 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:31:38 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+21:31:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:31:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+21:31:40 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+21:32:51 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:33:33 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:34:03 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+21:34:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+21:34:05 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+21:34:18 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:34:47 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+21:34:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+21:34:49 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+21:51:59 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+21:52:30 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+21:52:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:52:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+21:52:32 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+22:03:45 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+22:04:15 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+22:04:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:04:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+22:04:17 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+22:06:35 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+22:07:05 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+22:07:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:07:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+22:07:06 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+22:08:21 INFO  : Checking for BSP changes to sync application flags for project 'practicatres'...
+22:08:51 INFO  : Bit file 'D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit' is generated.
+22:08:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:08:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31CDAA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31CDAA-0362d093-0"}' command is executed.
+22:08:53 INFO  : Device configured successfully with "D:/SE/Vitis/practicatres_pruebatres/practicatres/_ide/bitstream/download.bit"
+13:36:08 DEBUG : Logs will be stored at 'D:/SE/Vitis/practicatres_pruebatres/IDE.log'.
+13:36:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\practicatres_pruebatres\temp_xsdb_launch_script.tcl
+13:36:12 INFO  : XSCT server has started successfully.
+13:36:12 INFO  : plnx-install-location is set to ''
+13:36:12 INFO  : Successfully done setting XSCT server connection channel  
+13:36:12 INFO  : Successfully done setting workspace for the tool. 
+13:36:13 INFO  : Platform repository initialization has completed.
+13:36:14 INFO  : Registering command handlers for Vitis TCF services
+13:36:15 INFO  : Successfully done query RDI_DATADIR 

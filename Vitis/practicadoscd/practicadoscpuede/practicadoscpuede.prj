@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="practicadoscpuede" location="D:/SE/Vitis/practicadoscd/practicadoscpuede" platform="D:/SE/Vitis/practicadoscd/puedeser/export/puedeser/puedeser.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="practicadoscpuede_system" sysConfig="puedeser" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="0c7b22c4aea369e67511347ca8d026cd">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.2078744012">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.71047538" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,37 @@
+22:08:21 **** Incremental Build of configuration Debug for project practicatres ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -ID:/SE/Vitis/practicatres_pruebatres/practica_tres_prueba_tres/export/practica_tres_prueba_tres/sw/practica_tres_prueba_tres/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+../src/testperiph.c: In function 'main':
+../src/testperiph.c:34:17: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   34 |                 usleep(200000); // 50 ms
+      |                 ^~~~~~
+../src/testperiph.c:43:9: warning: "/*" within comment [-Wcomment]
+   43 |         /*print(" ---Test para el keypad ---\n\r");
+      |          
+../src/testperiph.c:48:31: warning: "/*" within comment [-Wcomment]
+   48 |         TeclaOld = DataRead ; /* Se escribe un 0 para borrar la �ltima tecla le�da
+      |                                
+../src/testperiph.c:55:78: warning: "/*" within comment [-Wcomment]
+   55 |                 TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0); /* Se escribe un 0 para borrar la �ltima tecla le�da
+      |                                                                               
+../src/testperiph.c:76:17: warning: "/*" within comment [-Wcomment]
+   76 |                 /*RGB_LEDS_mReadReg(i, i);
+      |                  
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: practicatres.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/SE/Vitis/practicatres_pruebatres/practica_tres_prueba_tres/export/practica_tres_prueba_tres/sw/practica_tres_prueba_tres/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "practicatres.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: practicatres.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size practicatres.elf  |tee "practicatres.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2372	    272	   3108	   5752	   1678	practicatres.elf
+'Finished building: practicatres.elf.size'
+' '
+
+22:08:22 Build Finished (took 957ms)
+

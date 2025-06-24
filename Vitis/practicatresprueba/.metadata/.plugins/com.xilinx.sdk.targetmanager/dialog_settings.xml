@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="practicatres_prueba_system-bitFile" value="${project_loc:practicatres_prueba}/_ide/bitstream/prueba1p3.bit"/>
+	<item key="practicatres_prueba_system-bmmFile" value="${project_loc:practicatres_prueba}/_ide/bitstream/prueba1p3.mmi"/>
+	<item key="practicatres_prueba_system-target" value="Local"/>
+	<item key="practicatres_prueba_system-device" value="Auto Detect"/>
+	<item key="practicatres_prueba_system-partial_bit" value="false"/>
+	<item key="practicatres_prueba_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="practicatres_prueba_system"/>
+	<item key="practicatres_prueba_system-microblaze_0-initElf" value="D:\SE\Vitis\practicatresprueba\practicatres_prueba\Debug\practicatres_prueba.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183BB7CB2A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183BB7CB2A-0362d093-0&quot;}}]}"/>
+</section>

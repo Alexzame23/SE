@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="practicatres" location="D:/SE/Vitis/practicatres_pruebatres/practicatres" platform="D:/SE/Vitis/practicatres_pruebatres/practica_tres_prueba_tres/export/practica_tres_prueba_tres/practica_tres_prueba_tres.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="practicatres_system" sysConfig="practica_tres_prueba_tres" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="80e9d7ac27b146730e62002ffc1f805a">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.810426824">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1068206706" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>
