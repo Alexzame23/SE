@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "lcd.h"
+#include "sleep.h"
+
+/* Base address of the LCD peripheral (from xparameters.h) */
+#define LCD_BASEADDR         XPAR_LCD_V3_0_S00_AXI_BASEADDR
+
+/* Offsets into the AXI register space (from lcd.h) */
+#define LCD_CMD_OFFSET       LCD_S00_AXI_SLV_REG0_OFFSET
+#define LCD_STATUS_OFFSET    LCD_S00_AXI_SLV_REG1_OFFSET
+
+/* Bit positions in the command register */
+#define LCD_ENABLE_BIT       10
+#define LCD_RS_BIT           9
+#define LCD_RW_BIT           8
+
+/**
+ * Send one byte (instruction or data) to the LCD.
+ *
+ * @param data  8-bit ASCII code or command
+ * @param rs    0 = instruction, 1 = data
+ */
+static void lcd_send_byte(u8 data, u8 rs)
+{
+    u32 cmd = 0;
+
+    /* Pack the byte and RS, RW into bits [0..9] */
+    cmd |= (data & 0xFF);
+    cmd |= ((rs & 0x1) << LCD_RS_BIT);
+    /* RW = 0 for write operations */
+    cmd |= ((0 & 0x1) << LCD_RW_BIT);
+
+    /* Pulse lcd_enable (bit 10) high then back low */
+    LCD_mWriteReg(LCD_BASEADDR, LCD_CMD_OFFSET, cmd | (1 << LCD_ENABLE_BIT));
+    /* Clear the strobe bit on a second write */
+    LCD_mWriteReg(LCD_BASEADDR, LCD_CMD_OFFSET, cmd);
+
+    /* Wait for busy → 0 */
+    while ((LCD_mReadReg(LCD_BASEADDR, LCD_STATUS_OFFSET) & 0x1) != 0) {
+        /* spin */
+    }
+}
+
+int main(void)
+{
+    xil_printf("\r\n--- AXI-Lite LCD Peripheral Test ---\r\n");
+
+    /* Give the core & LCD time to power up & initialize */
+    sleep(1);
+
+    /* Clear display (instruction 0x01) */
+    lcd_send_byte(0x01, 0);
+    /* A short pause to let the clear settle */
+    sleep(1);
+
+    /* Write “Hola FPGA!” */
+    const char *msg = "Hola FPGA!";
+    for (int i = 0; msg[i] != '\0'; i++) {
+        lcd_send_byte((u8)msg[i], 1);
+    }
+
+    xil_printf("Mensaje enviado al LCD.\r\n");
+
+    /* Endless loop */
+    while (1) {
+        sleep(1);
+    }
+
+    return 0;
+}

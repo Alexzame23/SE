@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="lcd_system-bitFile" value="${project_loc:lcd}/_ide/bitstream/lcd_prueba.bit"/>
+	<item key="lcd_system-bmmFile" value="${project_loc:lcd}/_ide/bitstream/lcd_prueba.mmi"/>
+	<item key="lcd_system-target" value="Local"/>
+	<item key="lcd_system-device" value="Auto Detect"/>
+	<item key="lcd_system-partial_bit" value="false"/>
+	<item key="lcd_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="lcd_system"/>
+	<item key="lcd_system-microblaze_0-initElf" value="D:\SE\Vitis\prueba_lcd\lcd\Debug\lcd.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183BB7CB2A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183BB7CB2A-0362d093-0&quot;}}]}"/>
+</section>

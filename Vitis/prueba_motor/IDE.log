@@ -1,0 +1,32 @@
+19:44:46 DEBUG : Logs will be stored at 'D:/SE/Vitis/prueba_motor/IDE.log'.
+19:44:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\prueba_motor\temp_xsdb_launch_script.tcl
+19:44:59 INFO  : Platform repository initialization has completed.
+19:44:59 INFO  : Registering command handlers for Vitis TCF services
+19:45:06 INFO  : XSCT server has started successfully.
+19:45:06 INFO  : plnx-install-location is set to ''
+19:45:06 INFO  : Successfully done setting XSCT server connection channel  
+19:45:09 INFO  : Successfully done setting workspace for the tool. 
+19:45:09 INFO  : Successfully done query RDI_DATADIR 
+19:46:48 INFO  : Result from executing command 'getProjects': motor_prueba
+19:46:48 INFO  : Result from executing command 'getPlatforms': 
+19:46:49 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:46:52 INFO  : Platform 'motor_prueba' is added to custom repositories.
+19:46:59 INFO  : Platform 'motor_prueba' is added to custom repositories.
+19:47:38 INFO  : Result from executing command 'getProjects': motor_prueba
+19:47:38 INFO  : Result from executing command 'getPlatforms': motor_prueba|D:/SE/Vitis/prueba_motor/motor_prueba/export/motor_prueba/motor_prueba.xpfm
+19:47:38 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+19:49:26 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+19:56:02 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+19:56:21 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+19:56:49 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+19:58:22 INFO  : Bit file 'D:/SE/Vitis/prueba_motor/pruebaMotor/_ide/bitstream/download.bit' is generated.
+19:58:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:58:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+19:58:26 INFO  : Device configured successfully with "D:/SE/Vitis/prueba_motor/pruebaMotor/_ide/bitstream/download.bit"
+20:00:36 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+20:00:46 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+20:00:55 INFO  : Checking for BSP changes to sync application flags for project 'pruebaMotor'...
+20:04:00 INFO  : Bit file 'D:/SE/Vitis/prueba_motor/pruebaMotor/_ide/bitstream/download.bit' is generated.
+20:04:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:04:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+20:04:02 INFO  : Device configured successfully with "D:/SE/Vitis/prueba_motor/pruebaMotor/_ide/bitstream/download.bit"

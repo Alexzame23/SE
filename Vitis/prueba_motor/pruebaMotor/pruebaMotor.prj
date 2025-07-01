@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="pruebaMotor" location="D:/SE/Vitis/prueba_motor/pruebaMotor" platform="D:/SE/Vitis/prueba_motor/motor_prueba/export/motor_prueba/motor_prueba.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="pruebaMotor_system" sysConfig="motor_prueba" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="27fd05448eb4b51ab753eb9be9eb8bdc">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.300227294">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1543375198" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

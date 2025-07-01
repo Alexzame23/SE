@@ -1,0 +1,22 @@
+19:24:32 DEBUG : Logs will be stored at 'D:/SE/Vitis/prueba_lcd/IDE.log'.
+19:24:41 INFO  : Registering command handlers for Vitis TCF services
+19:24:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\SE\Vitis\prueba_lcd\temp_xsdb_launch_script.tcl
+19:24:42 INFO  : Platform repository initialization has completed.
+19:24:49 INFO  : XSCT server has started successfully.
+19:24:53 INFO  : Successfully done setting XSCT server connection channel  
+19:24:53 INFO  : plnx-install-location is set to ''
+19:24:53 INFO  : Successfully done query RDI_DATADIR 
+19:24:53 INFO  : Successfully done setting workspace for the tool. 
+19:25:39 INFO  : Result from executing command 'getProjects': lcd_prueba
+19:25:39 INFO  : Result from executing command 'getPlatforms': 
+19:25:40 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:25:44 INFO  : Platform 'lcd_prueba' is added to custom repositories.
+19:25:51 INFO  : Platform 'lcd_prueba' is added to custom repositories.
+19:32:37 INFO  : Result from executing command 'getProjects': lcd_prueba
+19:32:37 INFO  : Result from executing command 'getPlatforms': lcd_prueba|D:/SE/Vitis/prueba_lcd/lcd_prueba/export/lcd_prueba/lcd_prueba.xpfm
+19:32:37 INFO  : Checking for BSP changes to sync application flags for project 'lcd'...
+19:32:49 INFO  : Checking for BSP changes to sync application flags for project 'lcd'...
+19:33:28 INFO  : Bit file 'D:/SE/Vitis/prueba_lcd/lcd/_ide/bitstream/download.bit' is generated.
+19:33:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:33:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+19:33:34 INFO  : Device configured successfully with "D:/SE/Vitis/prueba_lcd/lcd/_ide/bitstream/download.bit"

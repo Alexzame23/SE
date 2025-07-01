@@ -1,0 +1,1071 @@
+TRACE::2025-06-22.19:25:18::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:18::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:18::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:18::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:18::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:18::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:18::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-06-22.19:25:20::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:20::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-06-22.19:25:20::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba"
+		}]
+}
+TRACE::2025-06-22.19:25:20::SCWPlatform::Boot application domains not present, creating them
+TRACE::2025-06-22.19:25:20::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2025-06-22.19:25:20::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba"
+		}]
+}
+TRACE::2025-06-22.19:25:20::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba"
+		}]
+}
+TRACE::2025-06-22.19:25:20::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:20::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:20::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:20::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:20::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-22.19:25:20::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:20::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:20::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:20::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:20::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:21::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:21::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:21::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:21::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:21::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:21::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:21::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:21::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:21::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-22.19:25:21::SCWMssOS::No sw design opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:21::SCWMssOS::mss does not exists at D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:21::SCWMssOS::Creating sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:21::SCWMssOS::Adding the swdes entry, created swdb D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:21::SCWMssOS::updating the scw layer changes to swdes at   D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:21::SCWMssOS::Writing mss at D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:21::SCWMssOS::Completed writing the mss file at D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-06-22.19:25:21::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-22.19:25:21::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-22.19:25:21::SCWMssOS::Completed writing the mss file at D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-06-22.19:25:21::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-06-22.19:25:36::SCWMssOS::Saving the mss changes D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:36::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-06-22.19:25:36::SCWMssOS::Writing the mss file completed D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:36::SCWMssOS::Commit changes completed.
+TRACE::2025-06-22.19:25:36::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:36::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:36::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:36::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:36::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:36::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:36::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:36::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:37::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:37::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:37::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:37::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:37::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:37::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:37::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:37::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:37::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"2cb67e22c81a9fcd9417a6473e5465c6",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-06-22.19:25:37::SCWPlatform::Started generating the artifacts platform lcd_prueba
+TRACE::2025-06-22.19:25:37::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-06-22.19:25:37::SCWPlatform::Started generating the artifacts for system configuration lcd_prueba
+LOG::2025-06-22.19:25:37::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-06-22.19:25:37::SCWSystem::Not a boot domain 
+LOG::2025-06-22.19:25:37::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-06-22.19:25:37::SCWDomain::Generating domain artifcats
+TRACE::2025-06-22.19:25:37::SCWMssOS::Generating standalone artifcats
+TRACE::2025-06-22.19:25:37::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-06-22.19:25:37::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:37::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:37::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:37::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:37::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:37::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:37::SCWMssOS::Completed writing the mss file at D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-06-22.19:25:37::SCWMssOS::Mss edits present, copying mssfile into export location D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:37::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-22.19:25:37::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-06-22.19:25:37::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2025-06-22.19:25:37::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-06-22.19:25:37::SCWMssOS::Copying to export directory.
+TRACE::2025-06-22.19:25:38::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-06-22.19:25:38::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-06-22.19:25:38::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-06-22.19:25:38::SCWSystem::Completed Processing the sysconfig lcd_prueba
+LOG::2025-06-22.19:25:38::SCWPlatform::Completed generating the artifacts for system configuration lcd_prueba
+TRACE::2025-06-22.19:25:38::SCWPlatform::Started preparing the platform 
+TRACE::2025-06-22.19:25:38::SCWSystem::Writing the bif file for system config lcd_prueba
+TRACE::2025-06-22.19:25:38::SCWSystem::dir created 
+TRACE::2025-06-22.19:25:38::SCWSystem::Writing the bif 
+TRACE::2025-06-22.19:25:38::SCWPlatform::Started writing the spfm file 
+TRACE::2025-06-22.19:25:38::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-06-22.19:25:38::SCWPlatform::Completed generating the platform
+TRACE::2025-06-22.19:25:38::SCWMssOS::Saving the mss changes D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-22.19:25:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-22.19:25:38::SCWMssOS::Commit changes completed.
+TRACE::2025-06-22.19:25:38::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:38::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:38::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:38::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:38::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:38::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:38::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:38::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:38::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:38::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:38::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:38::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:38::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:38::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:38::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:39::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"2cb67e22c81a9fcd9417a6473e5465c6",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-06-22.19:25:39::SCWPlatform::updated the xpfm file.
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:39::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:39::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWMssOS::Saving the mss changes D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-22.19:25:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-22.19:25:39::SCWMssOS::Commit changes completed.
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:39::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:39::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:39::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:39::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:39::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:39::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:40::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"2cb67e22c81a9fcd9417a6473e5465c6",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:40::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:40::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:40::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:40::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWMssOS::Saving the mss changes D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-22.19:25:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-22.19:25:40::SCWMssOS::Commit changes completed.
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:40::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:40::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:40::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:40::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:40::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:41::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:41::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:41::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:41::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"2cb67e22c81a9fcd9417a6473e5465c6",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-06-22.19:25:41::SCWPlatform::Started generating the artifacts platform lcd_prueba
+TRACE::2025-06-22.19:25:41::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-06-22.19:25:42::SCWPlatform::Started generating the artifacts for system configuration lcd_prueba
+LOG::2025-06-22.19:25:42::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-06-22.19:25:42::SCWDomain::Generating domain artifcats
+TRACE::2025-06-22.19:25:42::SCWMssOS::Generating standalone artifcats
+TRACE::2025-06-22.19:25:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-06-22.19:25:42::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:42::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:42::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:42::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:42::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:42::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:42::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:42::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:42::SCWMssOS::Completed writing the mss file at D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-06-22.19:25:42::SCWMssOS::Mss edits present, copying mssfile into export location D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-22.19:25:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-06-22.19:25:42::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-06-22.19:25:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-06-22.19:25:42::SCWMssOS::Copying to export directory.
+TRACE::2025-06-22.19:25:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-06-22.19:25:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-06-22.19:25:42::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-06-22.19:25:42::SCWSystem::Completed Processing the sysconfig lcd_prueba
+LOG::2025-06-22.19:25:42::SCWPlatform::Completed generating the artifacts for system configuration lcd_prueba
+TRACE::2025-06-22.19:25:42::SCWPlatform::Started preparing the platform 
+TRACE::2025-06-22.19:25:42::SCWSystem::Writing the bif file for system config lcd_prueba
+TRACE::2025-06-22.19:25:42::SCWSystem::dir created 
+TRACE::2025-06-22.19:25:43::SCWSystem::Writing the bif 
+TRACE::2025-06-22.19:25:43::SCWPlatform::Started writing the spfm file 
+TRACE::2025-06-22.19:25:43::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-06-22.19:25:43::SCWPlatform::Completed generating the platform
+TRACE::2025-06-22.19:25:43::SCWMssOS::Saving the mss changes D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-22.19:25:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-22.19:25:43::SCWMssOS::Commit changes completed.
+TRACE::2025-06-22.19:25:43::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:43::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:43::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:43::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:43::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:43::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:43::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:43::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:43::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:43::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:43::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:25:43::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:25:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:25:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:25:43::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:43::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:25:43::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:25:43::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"2cb67e22c81a9fcd9417a6473e5465c6",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-06-22.19:25:43::SCWPlatform::updated the xpfm file.
+LOG::2025-06-22.19:32:17::SCWPlatform::Started generating the artifacts platform lcd_prueba
+TRACE::2025-06-22.19:32:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-06-22.19:32:18::SCWPlatform::Started generating the artifacts for system configuration lcd_prueba
+LOG::2025-06-22.19:32:18::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-06-22.19:32:18::SCWSystem::Not a boot domain 
+LOG::2025-06-22.19:32:18::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-06-22.19:32:18::SCWDomain::Generating domain artifcats
+TRACE::2025-06-22.19:32:18::SCWMssOS::Generating standalone artifcats
+TRACE::2025-06-22.19:32:18::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-06-22.19:32:18::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:18::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:18::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:18::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:32:18::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:18::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:32:18::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:32:18::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:32:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:32:18::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:18::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:32:18::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:18::SCWMssOS::Completed writing the mss file at D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-06-22.19:32:18::SCWMssOS::Mss edits present, copying mssfile into export location D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:18::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-22.19:32:18::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-06-22.19:32:18::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2025-06-22.19:32:18::SCWMssOS::doing bsp build ... 
+TRACE::2025-06-22.19:32:18::SCWMssOS::System Command Ran  D: & cd  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-06-22.19:32:18::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-06-22.19:32:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2025-06-22.19:32:19::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-22.19:32:19::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-06-22.19:32:19::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-06-22.19:32:19::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-06-22.19:32:19::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2025-06-22.19:32:19::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-22.19:32:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-06-22.19:32:21::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-22.19:32:21::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-06-22.19:32:21::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/lcd_v1_0/src"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::make -C microblaze_0/libsrc/lcd_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-06-22.19:32:21::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2025-06-22.19:32:21::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-06-22.19:32:21::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2025-06-22.19:32:21::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/lcd_v1_0/src"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::make -C microblaze_0/libsrc/lcd_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2025-06-22.19:32:21::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2025-06-22.19:32:21::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:21::SCWMssOS::"Compiling lcd..."
+
+TRACE::2025-06-22.19:32:22::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-06-22.19:32:22::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2025-06-22.19:32:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2025-06-22.19:32:22::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-22.19:32:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-06-22.19:32:22::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-06-22.19:32:22::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-06-22.19:32:22::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2025-06-22.19:32:22::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-22.19:32:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-06-22.19:32:23::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-22.19:32:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2025-06-22.19:32:23::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/lcd_v1_0/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/lcd_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-06-22.19:32:23::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2025-06-22.19:32:23::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-06-22.19:32:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2025-06-22.19:32:23::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_17/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_17/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-06-22.19:32:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-06-22.19:32:23::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-06-22.19:32:23::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2025-06-22.19:32:23::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-06-22.19:32:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-06-22.19:32:23::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-06-22.19:32:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2025-06-22.19:32:23::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_8/src"
+
+TRACE::2025-06-22.19:32:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-06-22.19:32:23::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2025-06-22.19:32:24::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-06-22.19:32:26::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2025-06-22.19:32:27::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-06-22.19:32:27::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-06-22.19:32:27::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2025-06-22.19:32:27::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2025-06-22.19:32:27::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2025-06-22.19:32:27::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2025-06-22.19:32:27::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2025-06-22.19:32:27::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2025-06-22.19:32:27::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2025-06-22.19:32:27::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2025-06-22.19:32:27::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2025-06-22.19:32:27::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2025-06-22.19:32:27::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2025-06-22.19:32:27::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2025-06-22.19:32:27::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2025-06-22.19:32:27::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2025-06-22.19:32:27::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2025-06-22.19:32:27::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2025-06-22.19:32:27::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2025-06-22.19:32:27::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xinter
+TRACE::2025-06-22.19:32:27::SCWMssOS::rupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.
+TRACE::2025-06-22.19:32:27::SCWMssOS::o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuart
+TRACE::2025-06-22.19:32:27::SCWMssOS::lite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2025-06-22.19:32:27::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-06-22.19:32:30::SCWMssOS::Copying to export directory.
+TRACE::2025-06-22.19:32:36::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-06-22.19:32:36::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-06-22.19:32:36::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-06-22.19:32:36::SCWSystem::Completed Processing the sysconfig lcd_prueba
+LOG::2025-06-22.19:32:36::SCWPlatform::Completed generating the artifacts for system configuration lcd_prueba
+TRACE::2025-06-22.19:32:36::SCWPlatform::Started preparing the platform 
+TRACE::2025-06-22.19:32:36::SCWSystem::Writing the bif file for system config lcd_prueba
+TRACE::2025-06-22.19:32:36::SCWSystem::dir created 
+TRACE::2025-06-22.19:32:36::SCWSystem::Writing the bif 
+TRACE::2025-06-22.19:32:36::SCWPlatform::Started writing the spfm file 
+TRACE::2025-06-22.19:32:36::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-06-22.19:32:36::SCWPlatform::Completed generating the platform
+TRACE::2025-06-22.19:32:36::SCWMssOS::Saving the mss changes D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-22.19:32:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-22.19:32:36::SCWMssOS::Commit changes completed.
+TRACE::2025-06-22.19:32:36::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:32:36::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:32:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:32:36::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:32:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:32:36::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:36::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:32:36::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:36::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:32:36::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:32:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:32:36::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:32:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:32:36::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:36::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:32:36::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:36::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:36::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:32:36::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:37::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:32:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:32:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:32:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:32:37::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:37::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:32:37::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:37::SCWWriter::formatted JSON is {
+	"platformName":	"lcd_prueba",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"lcd_prueba",
+	"platHandOff":	"D:/SE/Vivado/proyecto/lcd_prueba.xsa",
+	"platIntHandOff":	"<platformDir>/hw/lcd_prueba.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"lcd_prueba",
+	"systems":	[{
+			"systemName":	"lcd_prueba",
+			"systemDesc":	"lcd_prueba",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"lcd_prueba",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"2cb67e22c81a9fcd9417a6473e5465c6",
+					"compatibleApp":	"peripheral_tests",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-06-22.19:32:37::SCWPlatform::updated the xpfm file.
+TRACE::2025-06-22.19:32:37::SCWPlatform::Trying to open the hw design at D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:37::SCWPlatform::DSA given D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:37::SCWPlatform::DSA absoulate path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:37::SCWPlatform::DSA directory D:/SE/Vitis/prueba_lcd/lcd_prueba/hw
+TRACE::2025-06-22.19:32:37::SCWPlatform:: Platform Path D:/SE/Vitis/prueba_lcd/lcd_prueba/hw/lcd_prueba.xsa
+TRACE::2025-06-22.19:32:37::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2025-06-22.19:32:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2025-06-22.19:32:37::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2025-06-22.19:32:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-22.19:32:37::SCWMssOS::Checking the sw design at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-06-22.19:32:37::SCWMssOS::DEBUG:  swdes dump  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-06-22.19:32:37::SCWMssOS::Sw design exists and opened at  D:/SE/Vitis/prueba_lcd/lcd_prueba/microblaze_0/standalone_microblaze_0/bsp/system.mss

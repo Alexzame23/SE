@@ -1,0 +1,8 @@
+timestamp=[2025-06-22 19:24:40], mode=WORKBENCH_START, duration=0:00:14.260, duration_ms=14260, data={}
+timestamp=[2025-06-22 19:24:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.028, duration_ms=28, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-06-22 19:24:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.188, duration_ms=188, data={}
+timestamp=[2025-06-22 19:25:51], mode=APP_CREATION, duration=0:00:33.731, duration_ms=33731, data={name=lcd, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=lcd_prueba, application_type=application}
+timestamp=[2025-06-22 19:32:37], mode=PLATFORM_GENERATION, duration=0:00:23.038, duration_ms=23038, data={name=lcd_prueba}
+timestamp=[2025-06-22 19:32:41], mode=BUILD, duration=0:00:03.582, duration_ms=3582, data={name=lcd, configuration=Debug, clean_build=false}
+timestamp=[2025-06-22 19:32:43], mode=BUILD, duration=0:00:00.300, duration_ms=300, data={name=lcd_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-22 19:32:50], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=lcd, configuration=Debug, clean_build=false}

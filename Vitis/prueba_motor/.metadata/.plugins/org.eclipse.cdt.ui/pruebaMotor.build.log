@@ -1,0 +1,6 @@
+20:00:55 **** Incremental Build of configuration Debug for project pruebaMotor ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:00:55 Build Finished (took 252ms)
+

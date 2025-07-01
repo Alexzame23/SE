@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xgpio.h"
+#include "gpio_header.h"
+#include "motor.h"
+
+
+int main () 
+{
+   Xil_ICacheEnable();
+   Xil_DCacheEnable();
+   print("---Entering main---\n\r");
+
+
+   {
+      u32 status;
+      u32 DataRead;
+      
+      print("\r\nRunning GpioInputExample() for axi_gpio_0...\r\n");
+
+      
+      status = GpioInputExample(XPAR_AXI_GPIO_0_DEVICE_ID, &DataRead);
+      
+      if (status == 0) {
+         xil_printf("GpioInputExample PASSED. Read data:0x%X\r\n", DataRead);
+      }
+      else {
+         print("GpioInputExample FAILED.\r\n");
+      }
+   }
+
+
+   /*
+    * Peripheral SelfTest will not be run for axi_uartlite_0
+    * because it has been selected as the STDOUT device
+    */
+
+
+
+   print("---Exiting main---\n\r");
+   Xil_DCacheDisable();
+   Xil_ICacheDisable();
+   return 0;
+}
