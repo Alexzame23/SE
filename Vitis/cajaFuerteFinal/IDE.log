@@ -1,0 +1,49 @@
+13:41:47 DEBUG : Logs will be stored at 'F:/SE/Vitis/cajaFuerteFinal/IDE.log'.
+13:41:54 INFO  : Registering command handlers for Vitis TCF services
+13:41:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\SE\Vitis\cajaFuerteFinal\temp_xsdb_launch_script.tcl
+13:41:54 INFO  : Platform repository initialization has completed.
+13:42:00 INFO  : XSCT server has started successfully.
+13:42:00 INFO  : plnx-install-location is set to ''
+13:42:06 INFO  : Successfully done setting XSCT server connection channel  
+13:42:06 INFO  : Successfully done query RDI_DATADIR 
+13:42:06 INFO  : Successfully done setting workspace for the tool. 
+13:42:58 INFO  : Result from executing command 'getProjects': cajaParpadeo
+13:42:58 INFO  : Result from executing command 'getPlatforms': 
+13:43:00 WARN  : An unexpected exception occurred in the module 'platform project logging'
+13:43:04 INFO  : Platform 'cajaParpadeo' is added to custom repositories.
+13:43:11 INFO  : Platform 'cajaParpadeo' is added to custom repositories.
+13:47:37 INFO  : Result from executing command 'getProjects': cajaParpadeo
+13:47:37 INFO  : Result from executing command 'getPlatforms': cajaParpadeo|F:/SE/Vitis/cajaFuerteFinal/cajaParpadeo/export/cajaParpadeo/cajaParpadeo.xpfm
+13:47:38 INFO  : Checking for BSP changes to sync application flags for project 'cajaFinal'...
+16:48:49 DEBUG : Logs will be stored at 'F:/SE/Vitis/cajaFuerteFinal/IDE.log'.
+16:48:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\SE\Vitis\cajaFuerteFinal\temp_xsdb_launch_script.tcl
+16:48:57 INFO  : Platform repository initialization has completed.
+16:48:57 INFO  : Registering command handlers for Vitis TCF services
+16:48:58 INFO  : XSCT server has started successfully.
+16:49:04 INFO  : plnx-install-location is set to ''
+16:49:04 INFO  : Successfully done setting XSCT server connection channel  
+16:49:04 INFO  : Successfully done query RDI_DATADIR 
+16:49:04 INFO  : Successfully done setting workspace for the tool. 
+17:17:47 INFO  : Checking for BSP changes to sync application flags for project 'cajaFinal'...
+17:18:36 INFO  : Bit file 'F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit' is generated.
+17:18:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:18:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:18:42 INFO  : Device configured successfully with "F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit"
+17:19:20 INFO  : Bit file 'F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit' is generated.
+17:19:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:19:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:19:22 INFO  : Device configured successfully with "F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit"
+17:20:08 INFO  : Checking for BSP changes to sync application flags for project 'cajaFinal'...
+17:20:37 INFO  : Bit file 'F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit' is generated.
+17:20:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:20:39 INFO  : Device configured successfully with "F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit"
+17:29:53 INFO  : Checking for BSP changes to sync application flags for project 'cajaFinal'...
+17:30:24 INFO  : Bit file 'F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit' is generated.
+17:30:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:30:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:30:26 INFO  : Device configured successfully with "F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit"
+17:31:23 INFO  : Bit file 'F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit' is generated.
+17:31:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:31:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7CB2A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183BB7CB2A-0362d093-0"}' command is executed.
+17:31:25 INFO  : Device configured successfully with "F:/SE/Vitis/cajaFuerteFinal/cajaFinal/_ide/bitstream/download.bit"

@@ -1,0 +1,51 @@
+#include "xparameters.h"    // Contiene XPAR_MATRIZPUNTOS_0_S00_AXI_BASEADDR
+#include "MatrizPuntos.h"   // Macros de escritura/lectura del periférico
+#include "sleep.h"          // Funciones sleep() y usleep() para retardos
+
+#define BASEADDR XPAR_MATRIZPUNTOS_0_S00_AXI_BASEADDR  // Dirección base del periférico
+
+// Función para mostrar una palabra en la matriz de puntos por ~3 segundos
+void displayWord(const char *word) {
+    int len = 0;
+    while (word[len] != '\0') len++;  // calcular longitud de la palabra
+
+    // Determinar cuántos fotogramas (frames) mostrar: 1 estático o múltiples desplazados
+    int displayWidth = 4;                       // número de módulos de matriz (4)
+    int frames = (len > displayWidth) ? (len - displayWidth + 1) : 1;
+    double frameTime = 3.0 / frames;            // tiempo por frame en segundos (total ~3s)
+
+    for (int f = 0; f < frames; ++f) {
+        // Escribir hasta 4 caracteres del segmento visible de la palabra en los 4 registros
+        for (int i = 0; i < displayWidth; ++i) {
+            char ch;
+            if (f + i < len)
+                ch = word[f + i];   // caracter i-ésimo del frame
+            else
+                ch = ' ';           // espacio en blanco si no hay letra (opcional)
+            // Escribir el código ASCII del caracter en el registro i (offset = i*4)
+            MATRIZPUNTOS_mWriteReg(BASEADDR, i * 4, (u32)ch);
+        }
+        // Pausa para mantener el frame visible
+        if (frameTime >= 1.0) {
+            sleep((unsigned int)frameTime);              // retraso en segundos si >=1s
+        } else {
+            usleep((unsigned long)(frameTime * 1000000)); // retraso en microsegundos si <1s
+        }
+    }
+}
+
+int main() {
+    // Palabras a mostrar secuencialmente
+    const char *palabras[] = {"SAVED", "DELETED", "OPEN", "ERROR", "CLOSE"};
+    int numPalabras = 5;
+
+    while (1) {
+        for (int p = 0; p < numPalabras; ++p) {
+            displayWord(palabras[p]);
+            // (Opcional: se podría limpiar la matriz o añadir una pequeña pausa entre palabras)
+        }
+        // En un caso real, podría salir del bucle o esperar a ciertos eventos en lugar de loop infinito.
+    }
+
+    return 0;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="cajaFinal_system-bitFile" value="${project_loc:cajaFinal}/_ide/bitstream/cajaParpadeo.bit"/>
+	<item key="cajaFinal_system-bmmFile" value="${project_loc:cajaFinal}/_ide/bitstream/cajaParpadeo.mmi"/>
+	<item key="cajaFinal_system-target" value="Local"/>
+	<item key="cajaFinal_system-device" value="Auto Detect"/>
+	<item key="cajaFinal_system-partial_bit" value="false"/>
+	<item key="cajaFinal_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="cajaFinal_system"/>
+	<item key="cajaFinal_system-microblaze_0-initElf" value="F:\SE\Vitis\cajaFuerteFinal\cajaFinal\Debug\cajaFinal.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Basys3 210183BB7CB2A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Basys3-210183BB7CB2A-0362d093-0&quot;}}]}"/>
+</section>

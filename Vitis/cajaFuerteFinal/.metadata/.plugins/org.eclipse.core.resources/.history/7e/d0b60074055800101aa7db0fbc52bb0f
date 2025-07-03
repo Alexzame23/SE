@@ -1,0 +1,296 @@
+#include <stdio.h>
+#include <string.h>
+#include "xparameters.h"     // Direcciones base de los perif�ricos (XPAR_...)
+#include "xil_io.h"          // Funciones de E/S de nivel bajo (Xil_In32, Xil_Out32)
+#include "teclado.h"
+#include "motor.h"
+#include "rgb_leds.h"
+#include "matrizpuntos.h"
+#include "sleep.h"
+
+u32 password, passRead;
+
+void deletePass(){
+
+	password = 0;
+
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 128); // Rojo m�ximo
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);   // Verde apagado
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, 127);   // Azul apagado
+
+	usleep(1000000);
+
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 0); // Rojo m�ximo
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, 0);   // Azul apagado
+
+	usleep(1000000);
+
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 128); // Rojo m�ximo
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, 127);   // Azul apagado
+
+	usleep(1000000);
+
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 0); // Rojo m�ximo
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, 0);   // Azul apagado
+
+	usleep(1000000);
+
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 128); // Rojo m�ximo
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, 127);   // Azul apagado
+
+	usleep(1000000);
+
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 0); // Rojo m�ximo
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, 0);   // Azul apagado
+}
+
+void newPassword(){
+
+	xil_printf (" Introduce la nueva contrase�a \n\r" );
+	u32 teclaOld = 0;
+	u32 dataRead = 0;  // Almacenar� la tecla presionada
+	u8 completado = 0;
+
+	dataRead = TECLADO_mReadReg(XPAR_TECLADO_0_S00_AXI_BASEADDR, TECLADO_S00_AXI_SLV_REG0_OFFSET);
+	xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , dataRead );
+	TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0);
+	teclaOld = dataRead;
+
+	while(completado == 0){
+
+		if ( dataRead != teclaOld ) {
+			xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , dataRead );
+			teclaOld = dataRead ;
+			switch(dataRead){
+			case 1:
+				password = (password * 10) + dataRead;
+				break;
+			case 2:
+				password = (password * 10) + dataRead;
+				break;
+			case 3:
+				password = (password * 10) + dataRead;
+				break;
+			case 4:
+				password = (password * 10) + dataRead;
+				break;
+			case 5:
+				password = (password * 10) + dataRead;
+				break;
+			case 6:
+				password = (password * 10) + dataRead;
+				break;
+			case 7:
+				password = (password * 10) + dataRead;
+				break;
+			case 8:
+				password = (password * 10) + dataRead;
+				break;
+			case 9:
+				password = (password * 10) + dataRead;
+				break;
+			case 10:
+				if(password > 1000 && password < 100000000){
+					xil_printf (" Contrase�a guardada correctamente \n\r");
+					RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 255);
+					usleep(1000000);
+					RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);
+					usleep(1000000);
+					RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 255);
+					usleep(1000000);
+					RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);
+					usleep(1000000);
+					RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 255);
+					usleep(1000000);
+					RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);
+					completado = 1;
+				}
+				else if (password > 10000000) {
+					xil_printf (" Se ha superado el limite de 8 digitos de la contrase�a, debe eliminar algunos \n\r");
+				}
+				else{
+					xil_printf (" La contrase�a no llega al minimo de digitos, introduzca algunos mas \n\r");
+				}
+				break;
+			case 11:
+				password = password/10;
+				break;
+			case 14:
+				xil_printf (" La contrase�a escrita actualmente es %d \n\r", password);
+				break;
+			default:
+				break;
+			}
+		}
+
+		dataRead = TECLADO_mReadReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0);
+
+	}
+}
+
+void checkPass(){
+	if(password < 1000){
+		xil_printf (" No hay ninguna contrase�a guardada, pulse F para crear una nueva contrase�a \n\r");
+	}
+	else if(passRead < 1000 || passRead > 100000000){
+		xil_printf (" La contrase�a leida actualmente es superior a los limites de 4 a 8 digitos \n\r");
+	}
+	else{
+		if (passRead == password){
+			xil_printf (" La contrase�a es correcta \n\r");
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 255);
+			//Mover motor
+			//Escribir open en matriz
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 255);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 255);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);
+		}
+		else{
+			xil_printf (" Contrase�a incorrecta \n\r");
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 255);
+			//Escribir ERROR en matriz
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 0);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 255);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 0);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 255);
+			usleep(1000000);
+			RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 0);
+		}
+	}
+}
+
+int main(){
+	u32 teclaOld = 0;
+	u32 dataRead = 0;  // Almacenar� la tecla presionada
+	password = 0;
+	passRead = 0;
+
+	// Inicializa los LEDs a un color neutro
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 0);
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG1_OFFSET, 0);
+	RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG2_OFFSET, 0);
+
+	xil_printf("Escoga una opcion:\n\r");
+	xil_printf("1-9.- Introducir un digito.\n\r");
+	xil_printf("A.- Comprobar contrasena.\n\r");
+	xil_printf("B.- Borrar un digito.\n\r");
+	xil_printf("C.- Borrar contrasena.\n\r");
+	xil_printf("D.- Mostrar contrasena escrita por el momento. \n\r");
+	xil_printf("F.- Introducir nueva contrasena.\n\r");
+	xil_printf(" Pulse una tecla cualquiera \n\r");
+
+	dataRead = TECLADO_mReadReg(XPAR_TECLADO_0_S00_AXI_BASEADDR, 0);
+	xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , dataRead );
+	TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 ,0);
+	teclaOld = dataRead;
+
+	while(1){
+
+		if ( dataRead != teclaOld ) {
+			xil_printf (" Se ha leido %d del registro 0 del teclado \n\r" , dataRead );
+			teclaOld = dataRead ;
+			switch(dataRead){
+			case 1:
+				xil_printf (" test 1\n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 2:
+				xil_printf (" test2 \n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 3:
+				xil_printf (" test 3\n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 4:
+				xil_printf (" test 4\n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 5:
+				xil_printf (" test 5\n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 6:
+				xil_printf (" test 6\n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 7:
+				xil_printf (" test 7\n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 8:
+				xil_printf (" test 8\n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 9:
+				xil_printf (" test9 \n\r" );
+				if(password != 0){
+					passRead = (passRead*10) + dataRead;
+				}
+				break;
+			case 10:
+				xil_printf (" test a\n\r" );
+				checkPass();
+				passRead = 0;
+				break;
+			case 11:
+				xil_printf (" test b\n\r" );
+				if(passRead > 0){
+					passRead /= 10;
+				}
+				break;
+			case 12:
+				xil_printf (" test c\n\r" );
+				deletePass();
+				break;
+			case 13:
+				xil_printf (" test d\n\r" );
+				xil_printf ("La contrasena leida por el momento es %d\n\r" , passRead );
+				break;
+			case 14:
+				//Cerrar motor
+				//Escribir en matriz close
+				RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 255);
+				usleep(3000000);
+				RGB_LEDS_mWriteReg(XPAR_RGB_LEDS_0_S00_AXI_BASEADDR, RGB_LEDS_S00_AXI_SLV_REG0_OFFSET, 255);
+			case 15:
+				xil_printf (" test f\n\r" );
+				newPassword();
+				break;
+			default:
+				break;
+			}
+		}
+
+		dataRead = TECLADO_mReadReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0);
+		//TECLADO_mWriteReg ( XPAR_TECLADO_0_S00_AXI_BASEADDR , 0 , 0);
+
+	}
+}

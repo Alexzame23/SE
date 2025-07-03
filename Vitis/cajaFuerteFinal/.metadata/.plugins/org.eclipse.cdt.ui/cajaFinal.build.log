@@ -1,0 +1,21 @@
+17:29:53 **** Incremental Build of configuration Debug for project cajaFinal ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -IF:/SE/Vitis/cajaFuerteFinal/cajaParpadeo/export/cajaParpadeo/sw/cajaParpadeo/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.o" -o "src/testperiph.o" "../src/testperiph.c"
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: cajaFinal.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/SE/Vitis/cajaFuerteFinal/cajaParpadeo/export/cajaParpadeo/sw/cajaParpadeo/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "cajaFinal.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cajaFinal.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size cajaFinal.elf  |tee "cajaFinal.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12552	    272	   3120	  15944	   3e48	cajaFinal.elf
+'Finished building: cajaFinal.elf.size'
+' '
+
+17:29:54 Build Finished (took 1s.234ms)
+
